@@ -14,7 +14,7 @@ You'll notice that there are three distinct styles of interaction planned for th
 
 Schedule items will be marked with an icon indicating which styles are applicable.
 
-## Questions for shy people
+## Help for shy people
 
 <span style="color:red;"><strong>HELP!</strong></span> Everyone falls behind from time to time. But sometimes people are afraid to interrupt. 
 
