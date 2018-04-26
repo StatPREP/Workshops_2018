@@ -24,33 +24,35 @@ Click on the above document where you can post requests for help, suggestions, c
 
 ## Friday
 
-1. Welcome
+1. [Welcome](greetings.html)
 2. Examples of in-class lessons centered on data
-    - Start with graphics: a example lesson
-    - Lessons using the Little Apps
-    - Concept lesson: What's normal?
+    - Start with graphics: Randy Pruim's first-day-of-class activity [tutorial](http://dtkaplan.shinyapps.io/USBirths) and [notes on plotting](http://dtkaplan.shinyapps.io/Plotting_with_formulas)
+    - Lessons using the [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
+    - Concept lesson: What's normal? [Background](http://statprep.org/lesson-whats-normal/) and [activity](https://dtkaplan.shinyapps.io/Whats_normal)
 3. Collecting data with your students
     - Icebreaker
     - Globe tossing
     - Hypothesis testing with shuffling
-4. Computing in tutorial form
-    - Starting R
-    - Describing one variable
-    - Relationships between two variables
+4. Tidy data: [Presentations](https://dtkaplan.github.io/statPREP/Notes/Data_and_presentations.html) vs [tables](https://dtkaplan.shinyapps.io/Data_tables/)
+5. Computing in tutorial form
+    - Starting R: [functions](http://dtkaplan.shinyapps.io/Functions) and [formulas](http://dtkaplan.shinyapps.io/Formulas)
+    - [Statistics on one variable](http://dtkaplan.shinyapps.io/Qstats) [Note in draft, this needs to be updated to a version using `mosaicModel`.]
+    - [Relationships between two variables](http://dtkaplan.shinyapps.io/Scatterplots)
     - For year-two workshops, there's an optional alternative track about using lessons in tutorial format.
-5. Computing with Little Apps
+6. [Computing with Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
 
 ## Saturday
 
-1. Exploring R using tutorials
+1. Exploring statistics using tutorials: a collection of choices
 2. Statistical concepts
-    - It's all regression
-    - Simulation-based inference
+    - It's all [regression](https://dtkaplan.shinyapps.io/SimpleRegression/)
+    - Simulation-based inference [sampling](http://dtkaplan.shinyapps.io/Sampling), [resampling](http://dtkaplan.shinyapps.io/Resampling), and [shuffling](https://dtkaplan.shinyapps.io/Permutation_test/)
 3. Communicating with your students: Two tracks
     - Setting up a course web site
     - Computing with [rstudio.cloud](http:rstudio.cloud)
 4. Lesson development: Small group activity with two tracks
-    - Developing lessons based on Little Apps
-    - Developing lessons using R conmmands
+    - Developing lessons based on [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
+    - Developing lessons using R commands. (An example from last year: )
 5. Brief presentations of lessons developed
-6. Going forward ...
+6. Evaluation: Help us improve!
+6. Going forward ... support and staying in touch

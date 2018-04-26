@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Starting out …</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">StatPREP Workshops for 2018</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="little-apps.html">Little apps</a>
+</li>
+<li>
+  <a href="instructor-tutorials.html">Instructor tutorials</a>
+</li>
+<li>
+  <a href="resources.html">Other resources</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Starting out …</h1>
+
+</div>
+
+
+<p><strong>Welcome to this StatPREP workshop!</strong></p>
+<p>We could hardly skip having a formal welcome to the workshop. That done, we’ll keep things brief so that we can get on to the workshop itself.</p>
+<div id="brief-background" class="section level2">
+<h2>Brief background</h2>
+<p>Statistics and data science are more important than ever, and enrollment growth in statistics classes has been rapid. This is good news, since statistics and data science are such useful subjects. But there are some challenges:</p>
+<ul>
+<li>It can be hard to find faculty with previous experience working with data.</li>
+<li>Traditionally, statistics is taught as a mathematical topic – a branch of probability. This was probably never appropriate for introducing students to data, but things are what they are. In particular, the way things are, faculty have few sources to draw on in moving toward a data-centric statistics course. And it’s always been hard to overcome tradition in academia, so faculty may not get full support from senior colleagues.</li>
+</ul>
+<p>The goal of StatPREP is to provide resources and faculty development opportunities for those teaching statistics who may not have had extensive experience with data, and to create a network of instructors who can support each other.</p>
+</div>
+<div id="brief-summary" class="section level2">
+<h2>Brief summary</h2>
+<p>This workshop is one of several ways in which the StatPREP program provides support. Others include: regional hub leaders who can organize opportunities for faculty to work together in developing their statistics teaching skills, a network of national experts who can provide technical support and implement class lessons and other materials, webinars, and software infrastructure so that you and your students can access statistical and data-science computing with only a browser at your end.</p>
+<p>In the workshop, we’ll …</p>
+<ul>
+<li>Provide examples of styles of teaching with data in order to help instructors gain new skills and start to move away from a mathematical-theory-based approach to statistics.</li>
+<li>Help you get to know and use StatPREP teaching materials so that you can gradually move your existing course to one more in line with current practice in statistics and data science and with the professional standards expressed in documents such as the <a href="http://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf">GAISE College Report</a> published by the American Statistical Association.</li>
+<li>Demonstrate relatively new ideas in statistics theory and statistics pedagogy so that you can consider augmenting and updating your current pedagogy.</li>
+<li>Introduce you to the software that underlies the StatPREP materials with an eye to helping you gain familiarity and comfort working with modern statistics and data-science software. Some instructors may prefer to give their students software skills, while others prefer to focus their students’ attention on other matters. Whichever group you fall into, knowing the basics of statistical software will help you develop professionally.</li>
+</ul>
+<p>We will start on Friday …</p>
+<ul>
+<li>with a few examples of data-centric lessons, then move on to …</li>
+<li>software systems that can support your classes’ access to and collection of data. Following this, we’ll …</li>
+<li>work with teaching materials that present statistics through highly scaffolded statistics commands in interactive documents called <em>tutorials</em>.</li>
+</ul>
+<p>On Saturday, we’ll …</p>
+<ul>
+<li>cover basic statistics with a handful of software commands in tutorials, then …</li>
+<li>demonstrate two ways of teaching statistics topics:
+<ul>
+<li>randomization-based inference</li>
+<li>regression as the unifying framework for intro stats.</li>
+</ul></li>
+<li>Then you can choose either of two simultaneous tracks:
+<ul>
+<li>setting up a course web site, or</li>
+<li>authoring class notes using RStudio</li>
+</ul></li>
+<li>Saturday afternoon will be given over to your developing and presenting lessons or class demonstrations in a small-group format. You’ll have a choice of two options:
+<ul>
+<li>lessons based on interactive apps that do not require you to write code</li>
+<li>lessons based on tutorials that use R commands as a notation for statistics</li>
+</ul></li>
+<li>We’ll finish up by talking about how StatPREP can support you as you go forward to use these ideas and materials in your own teaching.</li>
+</ul>
+<div id="introductions" class="section level3">
+<h3>Introductions</h3>
+<p>Introducing the workshop staff. (We’ll have a chance to get to know one another later today.)</p>
+</div>
+<div id="questions-and-comments" class="section level3">
+<h3>Questions and comments</h3>
+<p>We encourage you to ask questions and join in discussions.</p>
+<p>When you need help, ask for it.</p>
+<p>Don’t worry too much about going off topic: we’re all professional teachers and know how to steer back to the right course. (For instance: “That’s a good question (or observation). Let’s come back to that later.”)</p>
+<p>Often, people are a bit shy about asking questions. Two suggestions:</p>
+<ul>
+<li>Get over it!</li>
+<li>Use our <em>Help for Shy People</em> document to ask questions and make comments without any risk at all of being distracting.</li>
+</ul>
+<center>
+<a href="https://docs.google.com/document/d/1jvHUafLPBKBOHLRGwHutf_hnRhkv-qiiRlgM_L57SA8/edit?usp=sharing"><img src="images/help-for-shy-people.png", width = 200px></a>
+</center>
+</div>
+</div>
+<div id="logistics-of-the-meeting" class="section level2">
+<h2>Logistics of the meeting</h2>
+<p>Meals, breaks, toilet, network, parking, …</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
