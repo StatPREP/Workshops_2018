@@ -14,3 +14,5 @@ This site contains the workshop schedule, links, and other information about the
     - [College of Saint Catherine](stkate.html), Saint Paul, MN June 8 & 9, 2018
     - [Highland College](seattle.html), Seattle, WA June 15 & 16, 2018
     - [College of the Canyons](CofC.html), Santa Clarita, CA June 22 & 23
+
+Test
