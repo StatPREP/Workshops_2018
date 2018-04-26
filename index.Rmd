@@ -1,0 +1,16 @@
+---
+title: "StatPREP Workshops for 2018"
+---
+
+This site contains the workshop schedule, links, and other information about the StatPREP Summer workshops.
+
+* [Before the workshop ...](getting-ready.html)
+
+* [Workshop schedule](schedule.html), activity-by-activity. Participants should bookmark this link in their browser for easy access during the workshop.
+
+* Timing, contacts, and directions for the individual workshops:
+
+    - [University of Hartford](hartford.html), CT June 1 & 2, 2018
+    - [College of Saint Catherine](stkate.html), Saint Paul, MN June 8 & 9, 2018
+    - [Highland College](seattle.html), Seattle, WA June 15 & 16, 2018
+    - [College of the Canyons](CofC.html), Santa Clarita, CA June 22 & 23
