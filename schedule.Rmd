@@ -14,6 +14,14 @@ You'll notice that there are three distinct styles of interaction planned for th
 
 Schedule items will be marked with an icon indicating which styles are applicable.
 
+## Questions for shy people
+
+<span style="color:red;"><strong>HELP!</strong></span> Everyone falls behind from time to time. But sometimes people are afraid to interrupt. 
+
+<center><a href="https://docs.google.com/document/d/1jvHUafLPBKBOHLRGwHutf_hnRhkv-qiiRlgM_L57SA8/edit?usp=sharing"><img src="images/help-for-shy-people.png", width = 200px></a></center>
+
+Click on the above document where you can post requests for help, suggestions, criticisms, complements, etc. The hub and the workshop leaders will be monitoring this during the workshop.
+
 ## Friday
 
 1. Welcome
