@@ -1,0 +1,32 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+```{r child="header.md"}
+```
+<!-- Edit below this line. -->
+
+# Page title
+
+This is a template file to help you create new pages easily.
+
+### Directions
+
+* Use FILE/SAVE AS to store it under a different name in the same directory as this file. For the sake of the example, suppose that name is `syllabus.Rmd`.
+* Edit the new file (that is, for this example, the file you named `syllabus.Rmd`).
+    - Change the `# Page title` line above to be the title you want for your page.
+    - Delete contents such as this and replace them with your own contents. (But ... if you're not yet familiar with the process, read these instructions first.)
+* Press the "Knit" button to create an HTML version: `syllabus.html`. (IMPORTANT. If you do not do this, the page displayed on your site will not be updated.)
+* Repeat the edit-knit cycle until you are satisfied.
+* Deploy the revised web site:
+    1. Go to the "Git" tab in RStudio.
+    2. Check off all the files that have changed.
+    3. Press "Commit" and add a short message in the commit window that appears.
+    4. Press "Pull" then press "Push". The order is important.
+    5. In a couple of minutes, the revised site will be available at your github web address.
+* Go back and revise the page whenever you like.
+
+The page title, which you specify in the previous line, is typically different from the *site* title. The *site* title is set in the file `header.md`. 
+
+There's nothing special about this file. You can equally well use any `.Rmd` file in this directory as the template. 

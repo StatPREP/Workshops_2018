@@ -1,0 +1,73 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+title: "Starting out ..."
+---
+
+**Welcome to this StatPREP workshop!**
+
+We could hardly skip having a formal welcome to the workshop. That done, we'll keep things brief so that we can get on to the workshop itself.
+
+## Brief background
+
+Statistics and data science are more important than ever, and enrollment growth in statistics classes has been rapid. This is good news, since statistics and data science are such useful subjects. But there are some challenges:
+
+* It can be hard to find faculty with previous experience working with data.
+* Traditionally, statistics is taught as a mathematical topic -- a branch of probability. This was probably never appropriate for introducing students to data, but things are what they are. In particular, the way things are, faculty have few sources to draw on in moving toward a data-centric statistics course. And it's always been hard to overcome tradition in academia, so faculty may not get full support from senior colleagues.
+
+The goal of StatPREP is to provide resources and faculty development opportunities for those teaching statistics who may not have had extensive experience with data, and to create a network of instructors who can support each other.
+
+## Brief summary
+
+This workshop is one of several ways in which the StatPREP program provides support. Others include: regional hub leaders who can organize opportunities for faculty to work together in developing their statistics teaching skills, a network of national experts who can provide technical support and implement class lessons and other materials, webinars, and software infrastructure so that you and your students can access statistical and data-science computing with only a browser at your end.
+
+In the workshop, we'll ...
+
+* Provide examples of styles of teaching with data in order to help instructors gain new skills and start to move away from a mathematical-theory-based approach to statistics.
+* Help you get to know and use StatPREP teaching materials so that you can gradually move your existing course to one more in line with current practice in statistics and data science and with the professional standards expressed in documents such as the [GAISE College Report](http://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf) published by the American Statistical Association.
+* Demonstrate relatively new ideas in statistics theory and statistics pedagogy so that you can consider augmenting and updating your current pedagogy.
+* Introduce you to the software that underlies the StatPREP materials with an eye to helping you gain familiarity and comfort working with modern statistics and data-science software. Some instructors may prefer to give their students software skills, while others prefer to focus their students' attention on other matters. Whichever group you fall into, knowing the basics of statistical software will help you develop professionally.
+ 
+We will start on Friday ...
+
+- with a few examples of data-centric lessons, then move on to ... 
+- software systems that can support your classes' access to and collection of data. Following this, we'll ...
+- work with teaching materials that present statistics through highly scaffolded statistics commands in interactive documents called *tutorials*.
+
+On Saturday, we'll ...
+
+- cover basic statistics with a handful of software commands in tutorials, then ...
+- demonstrate two ways of teaching statistics topics: 
+    - randomization-based inference 
+    - regression as the unifying framework for intro stats.
+- Then you can choose either of two simultaneous tracks:
+    - setting up a course web site, or
+    - authoring class notes using RStudio
+- Saturday afternoon will be given over to your developing and presenting lessons or class demonstrations in a small-group format. You'll have a choice of two options:
+    - lessons based on interactive apps that do not require you to write code
+    - lessons based on tutorials that use R commands as a notation for statistics
+- We'll finish up by talking about how StatPREP can support you as you go forward to use these ideas and materials in your own teaching.
+
+### Introductions
+
+Introducing the workshop staff. (We'll have a chance to get to know one another later today.)
+
+### Questions and comments
+
+We encourage you to ask questions and join in discussions.
+
+When you need help, ask for it.
+
+Don't worry too much about going off topic: we're all professional teachers and know how to steer back to the right course. (For instance: "That's a good question (or observation). Let's come back to that later.")
+
+Often, people are a bit shy about asking questions. Two suggestions:
+
+- Get over it!
+- Use our *Help for Shy People* document to ask questions and make comments without any risk at all of being distracting.
+
+<center><a href="https://docs.google.com/document/d/1jvHUafLPBKBOHLRGwHutf_hnRhkv-qiiRlgM_L57SA8/edit?usp=sharing"><img src="images/help-for-shy-people.png", width = 200px></a></center>
+
+## Logistics of the meeting
+
+Meals, breaks, toilet, network, parking, ...

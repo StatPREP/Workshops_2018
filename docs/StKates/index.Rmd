@@ -1,0 +1,37 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+
+
+```{r child="header.md"}
+```
+
+## StatPREP Summer Workshop 2018: Minneapolis/St. Paul
+
+The workshop will be held at
+St. Catherine University, Saint Paul, MN
+
+- Friday June 8, 4pm - 8pm, dinner provided
+- Saturday June 9, 9pm - 5pm, lunch provided
+
+## Hub leader
+
+* Joe Roith, St. Kates, `jmroith@stkate.edu`
+
+## Application to participate
+
+As of late April, there are a few open spots for the workshop. Contact hub leader Joe Roith for more information.
+
+## Workshop leaders
+
+Alicia Johnson | Daniel Kaplan | Randy Pruim | Joe Roith | Andy&nbsp;Zieffler 
+:-------------:|:-------------:|:-----------:|:-------:|:-----:
+<img src='../images/Alicia_Johnson5.png' height="150px" > | <img src='../images/DTK-Feb-2017-clipped-thumbnail.jpeg' height="150px" > | <img src='../images/Randy_Prium-2.png' height="150px" > | <img src='../images/JoeRoith.png' height="150px" > | <img src='../images/ZiefflerAndrew.png' height="150px" >
+Macalester College | Macalester College | Calvin College | St. Kates University | Univ. of Minnesota
+
+
+
+
+

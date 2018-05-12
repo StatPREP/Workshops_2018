@@ -1,0 +1,22 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+```{r child="header.md"}
+```
+<!-- Edit below this line. -->
+
+# Getting to College of the Canyons
+
+This is where we're going to tell you some important stuff:
+
+- Public transport / where to park on campus
+- What rooms we'll be meeting in
+- Where to stay if you're from out of town
+
+
+## Campus Map
+
+[Annotated campus map](http://statprep.org/wp-content/uploads/2017/04/College-of-Canyons-map.pdf)
+
