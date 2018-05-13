@@ -7,7 +7,7 @@ title: "StatPREP Workshops for 2018"
 
 This site contains the workshop schedule, links, and other information about the StatPREP Summer workshops.
 
-* [Getting ready for the workshop.](getting-ready.html)
+* [Getting ready for the workshop.](getting_ready.html)
 
 * [Workshop schedule](schedule.html), activity-by-activity. Participants should bookmark this link in their browser for easy access during the workshop.
 
