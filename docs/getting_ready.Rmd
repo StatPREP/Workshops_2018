@@ -1,0 +1,48 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+```{r child="header.md"}
+```
+<!-- Edit below this line. -->
+
+# Getting ready for your workshop
+
+You'll want to have a laptop or tablet computer so that you can participate directly in the many hands-on activities in the workshop. Whatever kind of machine it is, it should have three basic capabilities:
+
+* A browser, e.g. Chrome or Safari or Firefox or IE
+* Wifi to connect to the Internet
+* A keyboard. Laptops, of course, have a keyboard built in. If you're using a tablet, having a separate keyboard makes it so much easier to use for the hands-on activities.
+
+Depending on the workshop site, we may have a few computers on site for those participants who cannot bring their own. Contact the hub leader for your workshop for information. And even if you can't bring a computer, you'll be able to partner with your neighbor at the workshop.
+
+## Sign up for cloud services
+
+You don't need to install any special software on your own computer. Instead, we'll use services in the cloud that work through a standard web browser.
+
+It's helpful if you set up a personal account on the cloud services listed below. That will save time on the day of the workshop and you can be a resource for your neighbor if they haven't had a chance to do so. (Do remember to keep track of your user ID and password. Writing it down is a good idea; you can chance the password after the workshop if you are worried about security.)
+
+### 1. Google
+
+You may already have a Google account: many people have an account already or work at an institution that provides email and other services through Google. If so, you are all set.
+
+If you don't already have an account, follow [this link to sign up](https://support.google.com/mail/answer/56256?hl=en).  
+
+Setting up a Google account is entirely to streamline authentication to other services that we use with StatPREP. You do not need to change anything about your existing email service or how you use it.
+
+### 2. GitHub
+
+Funny name, huh? GitHub is a free service with tens of millions of users. It's most closely associated with software development, but our main use for it will be to give you a way easily to create a web page to give your classes access to whichever StatPREP tutorials, lessons, or Little Apps you choose to use with them.
+
+Your institution may already provide you with a web site or a system such as Moodle or Blackboard that gives you a class-specific web page. If so, the point of setting up a GitHub account to use at the workshop is to make it easier for us to avoid having to figure out how to upload documents to a multiplicity of different web platforms.
+
+In selecting your user ID for GitHub, keep in mind that the ID is something that will be visible to students. So, `ProfJones` or something of that kind is probably better than `Red_hot_pepper_dude`.
+
+Follow [this link to GitHub's account creation page](https://github.com/). And *don't be intimidated* by the "Built for developers" label. 
+
+### 3. RStudio cloud
+
+We want you to have access to RStudio so that you can use it *if you decide you want to*. We'll show everyone some basics at the workshop so you can make an informed decision.
+
+You can sign in using either your Google or your GitHub credentials; there's no need to set up a separate ID or password. Go to [`rstudio.cloud`](rstudio.cloud).
