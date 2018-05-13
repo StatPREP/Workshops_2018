@@ -2,8 +2,11 @@
 output: 
   prettydoc::html_pretty:
     theme: tactile
-title: "StatPREP Workshops for 2018"
 ---
+
+```{r child="header.md"}
+```
+
 
 This site contains the workshop schedule, links, and other information about the StatPREP Summer workshops.
 

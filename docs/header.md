@@ -5,4 +5,4 @@
 <!-- ![](images/banner.jpg){img:height="300px" width="100%"} -->
 <!-- If you don't want a banner, delete the previous line.  -->
 
-**Menu**: Workshop [schedule](schedule.md) & [resources](resources.html) 
+**Menu**: [workshop homepage](index.html) :: [schedule](schedule.html) :: [resources](resources.html) 
