@@ -2,8 +2,12 @@
 output: 
   prettydoc::html_pretty:
     theme: tactile
-title: "Schedule of Workshop Activities"
 ---
+
+```{r child="header.md"}
+```
+
+# Schedule of Workshop Activities
 
 This schedule is the central collection of links to items that will be used in the StatPREP workshops. Participants should bookmark it in the browser for easy access during the workshop.
 
