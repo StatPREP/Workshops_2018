@@ -9,14 +9,19 @@ output:
 
 # Getting to the University of Hartford
 
-This is where we're going to tell you some important stuff:
+## Out of towners ...
 
-- Public transport / where to park on campus
-- What rooms we'll be meeting in
-- Where to stay if you're from out of town
+For lodging near the campus, The [Simsbury Inn](images/SimsburyInnCorporatSheetguest.pdf) is recommended. They offer a special university rate at $129 per night and all of you stay there so it will be good for networking with other participants. 
+
+There is a shuttle from Bradley International Airport and the Hartford train station to the Simsbury Inn. You should make shuttle reservations with the Inn before you travel; [instructions are here](images/SimsburyInn_Info_SI.pdf).
+
+There will be free shuttle service to/from the University of Hartford campus, available upon request. 
+
+## Driving 
+
+Parking is free on campus with a permit, which which is available via [this link](images/NSF Workshop 060118 .pdf). Print a copy before heading over.
 
 
 ## Campus Map
-
 
 [Link to campus map](http://www.hartford.edu/visitingcampus/files/pdf/university-hartford-campus-map.pdf)
