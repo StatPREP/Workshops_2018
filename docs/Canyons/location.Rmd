@@ -7,13 +7,28 @@ output:
 ```
 <!-- Edit below this line. -->
 
+All StatPREP activities will be held at
+
+University Center (UCEN)    
+College of the Canyons    
+26455 Rockwell Canyon Road    
+Santa Clarita, CA 91355 
+
 # Getting to College of the Canyons
 
-This is where we're going to tell you some important stuff:
+## Driving:
 
-- Public transport / where to park on campus
-- What rooms we'll be meeting in
-- Where to stay if you're from out of town
+Get directions via this [Google map to University Center (UCEN)](https://www.google.com/maps/place/Dr.+Dianne+G.+Van+Hook+University+Center/@34.398463,-118.5720995,17z/data=!4m8!1m2!2m1!1sUniversity+Center+College+of+the+Canyons!3m4!1s0x80c28728d24ae0b9:0xe02cbfa01c0260da!8m2!3d34.3992923!4d-118.5704908) 
+
+## Flying in:
+
+You can fly into LAX or BUR, Burbank airport.  Burbank is closer, but LAX will have more flight options.  If you’re flying into LAX, please note that traffic is bad all the time, but particularly bad from 3pm to 7pm if you’re flying in at those times.   Either airport you will need either a rental car or Uber/Lyft to get to College of the Canyons. 
+
+## Lodging
+
+I recommend the Hyatt, it’s the closest to the campus and across the street from our mall where there are restaurants and shops. Here are a few options though for you to check into. 
+
+[Hyatt Valencia](https://valencia.regency.hyatt.com/en/hotel/home.html) : [Embassy Suites Valencia](http://embassysuites3.hilton.com/en/hotels/california/embassy-suites-by-hilton-valencia-VALESES/index.html) : [Courtyard Marriott Santa Clarita Valencia](http://www.marriott.com/hotels/travel/bursc-courtyard-santa-clarita-valencia/)
 
 
 ## Campus Map
