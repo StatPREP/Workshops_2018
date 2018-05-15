@@ -15,17 +15,19 @@ output:
     - 2:00pm Welcome* and Activity #2-4 on schedule
     - 4:00 Coffee-Break, Starbucks Coffee and Tea
     - 4:30-6:00 Work Activity #5-6 
-    - 6:00 Dinner Catered, Buffet with Vegetarian/Vegan Options, Cheesecake, Lemonade, Coffee, Water
+    - 6:00 Dinner Buffet with vegetarian/vegan options, cheesecake, lemonade, coffee, water
     - 6:30 Adjourn 
 * Saturday June 2nd
-    - 8:30am Breakfast Catered, Pastries, Oatmeal Bar, Hot Sandwiches, Fruits, Tea, Coffee, Juices
-    - 9:00-10:15am Sessions
-    - 10:15-10:30  Coffee-Break
-    - 10:30-12:00pm Lunch Catered, Executive Luncheon Style
-    - 1:00-2:30 1stPM session
-    - 2:30 Coffee-Break, Spinach Dip, Fruit, Brownies, Coffee/Tea
-    - 2:45-4:45 2ndPM session
+    - 8:30am Breakfast catered, pastries, oatmeal bar, hot sandwiches, fruits, tea, coffee, juices
+    - 9:00-10:15am 1st morning session
+    - 10:15-10:30  coffee break
+    - 10:30-12:00pm 2nd morning session
+    - 12:00-1:00pm Lunch catered
+    - 1:00-2:30 1st pm session
+    - 2:30-2:45 Coffee break, spinach dip, fruit, brownies, coffee/tea
+    - 2:45-4:45 2nd pm session
     - 5:00 Adjourn
+    
 
 ## Hub leader
 

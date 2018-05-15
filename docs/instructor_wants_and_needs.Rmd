@@ -1,0 +1,21 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+```{r child="header.md"}
+```
+<!-- Edit below this line. -->
+
+# What instructors want (from StatPREP)
+
+## Engage students
+
+## Find data
+
+## Learn R
+
+## Overcome tech infrastructure challenges
+
+## Textbook changes
+
