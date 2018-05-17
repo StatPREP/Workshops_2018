@@ -71,3 +71,7 @@ Often, people are a bit shy about asking questions. Two suggestions:
 ## Logistics of the meeting
 
 Meals, breaks, toilet, network, parking, ...
+
+## Polls
+
+See the `Montana_poll` instructor tutorial

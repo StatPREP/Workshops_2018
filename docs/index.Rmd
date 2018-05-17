@@ -19,4 +19,15 @@ This site contains the workshop schedule, links, and other information about the
     - [University of Hartford](Hartford/index.html), CT June 1 & 2, 2018
     - [College of Saint Catherine](StKates/index.html), Saint Paul, MN June 8 & 9, 2018
     - [Highland College](Highline/index.html), Seattle, WA June 15 & 16, 2018
-    - [College of the Canyons](Canyons/index.html), Santa Clarita, CA June 22 & 23
+    - [College of the Canyons](Canyons/index.html), Santa Clarita, CA June 22 & 23<hr>
+
+----------
+
+<small>*StatPREP is supported by a grant from the US National Science Foundation (NSF DUE-1626337).*</small>
+
+----------
+
+*Unless otherwise specified by the author(s) of a document, the documents and software available contained directly via `StatPREP.github.org/Workshops_2018` are (c) 2017-18 by statPREP authors and are licensed under a modified version of the MIT software license. (See the [license file](LICENSE.txt).)* This statement does not include documents on other sites referenced by links. See those sites for licensing information.
+
+    
+    

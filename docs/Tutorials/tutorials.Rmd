@@ -1,0 +1,82 @@
+---
+output: 
+  rmarkdown::html_document:
+    theme: paper
+---
+```{r child="../header.md"}
+```
+<!-- Edit below this line. -->
+
+```{r include = FALSE}
+library(SDSdata)
+library(htmltools)
+```
+
+“default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”, “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti”
+
+<!-- Make the thumbnails with `make_thumbnail_image()` in SDSdata, e.g.
+make_thumbnail_image("https://dtkaplan.shinyapps.io/Starbucks/#section-visualizing-starbucks-locations", delay = 10)
+-->
+
+# StatPREP R
+
+This page provides links to lessons based on interacting with R. Each link takes you to a web service that displays the document in your web browser. You don't need to install any other software on your computer to use the lessons and tutorials.
+
+The StatPREP approach to statistics uses the R notation developed by Project MOSAIC, based on a simple, consistent template that works across statistical operations and graphics.
+
+In the following, **lessons** are intended for use in class or other student-oriented settings. In contrast, **tutorials** are intended to help instructors (or others) develop general skills in using MOSAIC for statistical and graphical calculations.
+
+## Tutorials
+
+```{r echo = FALSE}
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Functions/", delay = 10)
+functions_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Functions/",
+                                 "thumbnails/functions.png",
+                                 "Functions in R")
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Formulas/", delay = 10)
+formulas_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Formulas/",
+                                 "thumbnails/formulas.png",
+                                 "Formulas")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Data_frames/", delay = 10)
+data_frames_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Tutorial_data_frames/",
+                                 "thumbnails/tutorial_data_frames.png",
+                                 "Data frames")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Counting/", delay = 10)
+counting_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Tutorial_Counting/",
+                                "thumbnails/tutorial_counting.png", 
+                                "Counts and proportions")
+```
+
+```{r echo = FALSE}
+div(class = "row",
+    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb
+)
+```
+
+
+## Lessons
+
+
+
+
+```{r echo = FALSE}
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Lesson_first_day_births/", delay = 10)
+first_day_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Lesson_first_day_births/",
+                                 "thumbnails/lesson_first_day_births.png",
+                                 "A first-day lesson")
+```
+
+```{r echo = FALSE}
+div(class = "row",
+    first_day_thumb, first_day_thumb
+)
+```
+
+
+
+
+
+
+

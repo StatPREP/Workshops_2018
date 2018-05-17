@@ -1,0 +1,18 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+```{r child="header.md"}
+```
+<!-- Edit below this line. -->
+
+# Resources
+
+* Tutorials for instructors
+
+* Little Apps
+
+* Lessons for use in class
+
+* The [Open Intro Stats](https://www.openintro.org/stat/textbook.php) book. This is available free on line and in print form for less than $10. We're going to use this as a source for examples in the tutorial and to illustrate "typical" textbook problems. It doesn't use MOSAIC, so the R examples are unnecessarily complex. 
