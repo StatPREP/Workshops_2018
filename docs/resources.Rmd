@@ -15,6 +15,11 @@ output:
 
 * Lessons for use in class
 
+## Professional Guidelines
+
+* The GAISE college report.
+* The [ASA statement on p-values](https://www.amstat.org/asa/News/ASA-P-Value-Statement-Viewed-150000-Times.aspx)
+
 ## Textbooks
 
 * The [Open Intro Stats](https://www.openintro.org/stat/textbook.php) books. There are three books in different styles:

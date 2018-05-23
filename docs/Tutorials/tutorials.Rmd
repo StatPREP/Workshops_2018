@@ -12,7 +12,7 @@ library(SDSdata)
 library(htmltools)
 ```
 
-“default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”, “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti”
+<!--0 “default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”, “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti” -->
 
 <!-- Make the thumbnails with `make_thumbnail_image()` in SDSdata, e.g.
 make_thumbnail_image("https://dtkaplan.shinyapps.io/Starbucks/#section-visualizing-starbucks-locations", delay = 10)
@@ -64,11 +64,16 @@ conventional_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/tutorial_conv
                                "Conventional graphics")
 
 
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/tutorial_data_science_graphics/#section-graphics-for-descriptive-statistics")
+data_graphics_thumb <- app_thumbnail(
+  "https://dtkaplan.shinyapps.io/tutorial_data_science_graphics/", 
+  "thumbnails/tutorial_data_graphics.png",
+  "Data science graphics")
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_thumb
+    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_thumb, data_graphics_thumb
 )
 ```
 
