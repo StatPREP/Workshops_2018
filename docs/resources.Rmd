@@ -15,4 +15,12 @@ output:
 
 * Lessons for use in class
 
-* The [Open Intro Stats](https://www.openintro.org/stat/textbook.php) book. This is available free on line and in print form for less than $10. We're going to use this as a source for examples in the tutorial and to illustrate "typical" textbook problems. It doesn't use MOSAIC, so the R examples are unnecessarily complex. 
+## Textbooks
+
+* The [Open Intro Stats](https://www.openintro.org/stat/textbook.php) books. There are three books in different styles:
+
+    * Open Intro Statistics
+    * Open Intro Stats with Simulation and Randomization
+    * Advanced High-School Statistics
+    
+    The Open Intro books are available free on line and in print form for less than $10. We're going to use them as a source for examples in the tutorials and to illustrate "typical" textbook problems. 

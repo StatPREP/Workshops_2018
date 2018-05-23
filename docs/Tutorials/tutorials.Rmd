@@ -47,11 +47,28 @@ data_frames_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Tutorial_data_
 counting_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Tutorial_Counting/",
                                 "thumbnails/tutorial_counting.png", 
                                 "Counts and proportions")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Calculating_statistics/")
+dfstats_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Tutorial_Calculating_statistics/",
+                               "thumbnails/tutorial_calculating_statistics.png",
+                               "Calculating statistics")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Densities/")
+densities_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Tutorial_Densities/",
+                               "thumbnails/tutorial_densities.png",
+                               "Histograms and better")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/tutorial_conventional_graphics/#section-histogram")
+conventional_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/tutorial_conventional_graphics/",
+                               "thumbnails/tutorial_conventional.png",
+                               "Conventional graphics")
+
+
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb
+    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_thumb
 )
 ```
 
