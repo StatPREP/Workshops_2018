@@ -38,7 +38,7 @@ Click on the above document where you can post requests for help, suggestions, c
     - Concept lesson: What's normal? [Background](http://statprep.org/lesson-whats-normal/) and [activity](https://dtkaplan.shinyapps.io/Whats_normal)
 3. Collecting data with your students
     - Icebreaker
-    - Globe tossing
+    - [Globe tossing](https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/#section-how-big-is-africa-versus-asia)
     - Hypothesis testing with shuffling
 4. Tidy data: 
     - [Notes](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4) 
