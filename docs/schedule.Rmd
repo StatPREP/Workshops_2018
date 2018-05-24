@@ -44,7 +44,7 @@ Click on the above document where you can post requests for help, suggestions, c
     - [Notes](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4) 
     - Group activities [one](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-2), [two](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4)
 5. Computing in tutorial form
-    - Starting R: [functions](http://dtkaplan.shinyapps.io/Functions) and [formulas](http://dtkaplan.shinyapps.io/Formulas)
+    - Starting R: [functions](http://dtkaplan.shinyapps.io/Functions), [formulas](http://dtkaplan.shinyapps.io/Formulas), and parts of speech [notes](http://gifted-saha-3345d3.netlify.com/post/reading-r/) and [quiz](https://dtkaplan.shinyapps.io/part-of-speech-quiz/)
     - [Tidy data frames](https://dtkaplan.shinyapps.io/Data_tables/)
     - [Statistics on one variable](http://dtkaplan.shinyapps.io/Qstats) [Note in draft, this needs to be updated to a version using `mosaicModel`.]
     - [Relationships between two variables](http://dtkaplan.shinyapps.io/Scatterplots)
