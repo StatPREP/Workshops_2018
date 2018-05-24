@@ -80,11 +80,18 @@ workshop_wrangling_thumb <-
   app_thumbnail("http://dtkaplan.shinyapps.io/Workshop_wrangling", 
                 "thumbnails/workshop_wrangling.png",
                 "Data wrangling✐")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/")
+globe_toss_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/tutorial_globe_toss.png", 
+                "thumbnails/tutorial_globe_toss.png",
+                "Collecting data: Globe toss✐")
+
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_thumb, data_graphics_thumb, data_verbs_thumb, workshop_wrangling_thumb 
+    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_thumb, data_graphics_thumb, data_verbs_thumb, workshop_wrangling_thumb, globe_toss_thumb
 )
 ```
 
