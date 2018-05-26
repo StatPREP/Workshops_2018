@@ -39,7 +39,7 @@ Click on the above document where you can post requests for help, suggestions, c
 3. Collecting data with your students
     - Icebreaker
     - [Globe tossing](https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/#section-how-big-is-africa-versus-asia)
-    - Hypothesis testing with shuffling
+    - [Hypothesis testing with shuffling](http://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle)
 4. Tidy data: 
     - [Notes](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4) 
     - Group activities [one](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-2), [two](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4)

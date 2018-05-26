@@ -81,17 +81,13 @@ workshop_wrangling_thumb <-
                 "thumbnails/workshop_wrangling.png",
                 "Data wrangling✐")
 
-# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/")
-globe_toss_thumb <- 
-  app_thumbnail("http://dtkaplan.shinyapps.io/tutorial_globe_toss.png", 
-                "thumbnails/tutorial_globe_toss.png",
-                "Collecting data: Globe toss✐")
+
 
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_thumb, data_graphics_thumb, data_verbs_thumb, workshop_wrangling_thumb, globe_toss_thumb
+    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_thumb, data_graphics_thumb, data_verbs_thumb, workshop_wrangling_thumb
 )
 ```
 
@@ -106,11 +102,23 @@ div(class = "row",
 first_day_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Lesson_first_day_births/",
                                  "thumbnails/lesson_first_day_births.png",
                                  "A first-day lesson")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/")
+globe_toss_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/tutorial_globe_toss.png", 
+                "thumbnails/tutorial_globe_toss.png",
+                "Collecting data: Globe toss✐")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle/")
+riverboat_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle.png", 
+                "thumbnails/tutorial_riverboat_shuffle.png",
+                "A Riverboat Card Trick✐")
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    first_day_thumb, first_day_thumb
+    first_day_thumb, globe_toss_thumb, riverboat_thumb
 )
 ```
 
