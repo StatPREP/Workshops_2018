@@ -9,15 +9,17 @@ output:
 
 # Resources
 
-* Tutorials for instructors
+* [Tutorials for instructors](https://statprep.github.io/Workshops_2018/Tutorials/tutorials.html#Lessons)
 
-* Little Apps
+* [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
 
-* Lessons for use in class
+* [Lessons for use in class](https://statprep.github.io/Workshops_2018/Tutorials/tutorials.html#Lessons)
+
+* [Instructor notes for StatPREP technologies](http://StatPREP.github.io/InstructorNotes)
 
 ## Professional Guidelines
 
-* The GAISE college report.
+* The [GAISE college report](http://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf)
 * The [ASA statement on p-values](https://www.amstat.org/asa/News/ASA-P-Value-Statement-Viewed-150000-Times.aspx)
 
 ## Textbooks

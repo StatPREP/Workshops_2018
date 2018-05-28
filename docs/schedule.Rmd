@@ -58,7 +58,7 @@ Click on the above document where you can post requests for help, suggestions, c
     - It's all [regression](https://dtkaplan.shinyapps.io/SimpleRegression/)
     - Simulation-based inference [sampling](http://dtkaplan.shinyapps.io/Sampling), [resampling](http://dtkaplan.shinyapps.io/Resampling), and [shuffling](https://dtkaplan.shinyapps.io/Permutation_test/)
 3. Communicating with your students: Two tracks
-    - Setting up a course web site
+    - Setting up a course web site: Links: [simple site] & [RStudio managed site]
     - Computing with [rstudio.cloud](http:rstudio.cloud)
 4. Lesson development: Small group activity with two tracks
     - Developing lessons based on [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)

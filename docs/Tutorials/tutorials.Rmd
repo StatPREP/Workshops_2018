@@ -114,11 +114,17 @@ riverboat_thumb <-
   app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle.png", 
                 "thumbnails/tutorial_riverboat_shuffle.png",
                 "A Riverboat Card Trick✐")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Lesson_read_class_data/")
+read_class_data_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Lesson_read_class_data.png", 
+                "thumbnails/lesson_read_class_data.png",
+                "Accessing data on a Google spreadsheet✐")
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    first_day_thumb, globe_toss_thumb, riverboat_thumb
+    first_day_thumb, globe_toss_thumb, riverboat_thumb, read_class_data_thumb
 )
 ```
 
