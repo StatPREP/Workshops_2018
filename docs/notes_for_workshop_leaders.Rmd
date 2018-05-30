@@ -30,45 +30,58 @@ Only the person leading has to do what's listed under "preparation." For others,
 
 Look over the materials, determine which items you would find attractive to lead, and we'll sort out the details of who is doing what just before the Friday session.
 
-1. Welcome. I'll handle this.
+1. Welcome. 
+
+> Danny will handle this.
 
 2. Example lessons. There are three on the schedule. (The third one is there as a hedge against the possibility that things run much faster than expected. I continue to use such hedges despite 25 years of experience demonstrating that things run much slower than expected!) These are intended to be presented examples of lessons being taught to students: so 90% the lesson itself and 10% observations on teaching.
-    > We need a person to lead each lesson. Do it in your most charismatic style. Pose questions to the students. Discuss. 
-    > Preparation: the person leading each lesson should prepare in the same way they might for an actual class.
+    
+    > We need a person to lead each lesson. Do it in your most charismatic style. Pose questions to the students. Discuss.    
+    > Preparation: the person leading each lesson should prepare in the same way they might for an actual class.    
     > For the Little App lesson, we can pick any of the little apps. Remember that the lesson is not about the app. The app is a tool for teaching a statistics lesson. There are some suggestions for lessons posted in the various "instructor orientation" documents [here](http://statprep.org/little-apps-for-teaching-stats/). Or make up your own. (In item (Friday 6), we'll repeat less formally this using different apps than the one presented to the whole group, but in small group format.)
     
 3. Collecting data with your students. These serve two purposes: an icebreaker to get the participants interacting with one another; a lesson about collecting data with students and using it in class. (Do we really need both? We'll find out at the workshop!)
+    
     > We need an MC for each activity who will get the participants on task and lead the analysis of the collected data.
 
 4. A lecture about tidy data. Two small group activities.
+
     > Danny would like to do this, at least for the first workshop. 
 
 5. An introduction to R. Some things to note about this:
     a. We are using a very compact set of functions for this: essentially the mosaic/ggformula functions. 
     b. We are intentionally providing access to R through the `learnr` tutorial system.
-    > We need a leader for the group of tutorials under "Starting R," and leaders for each of the following tutorials on graphics, tidy data, calculating descriptive statistics. 
+    
+    > We need a leader for the group of tutorials under "Starting R," and leaders for each of the following tutorials on graphics, tidy data, calculating descriptive statistics.    
     > Preparation: Getting comfortable with using mosaic/ggformula commands without involving other styles of computation. Getting comfortable with how tutorials work, e.g. how to reset individual command blocks and the whole document, understanding that the blocks are independent on one another and so no block can use the computations of other blocks except by repeating them. (Loading packages has been done centrally, so you don't have to repeat that unless you want to use a package not anticipated when the tutorial was written.)
 
 6. Computing with little apps. This will be a small group activity where we try to get the instructors to use one or two apps to discover statistical concepts that are new to them. (On Saturday, the emphasis will be on designing class lessons with the little apps.) 
-    > Workshop leaders will circulate among the small groups, helping them settle on an app, and suggesting directions for them to go. 
+    
+    > Workshop leaders will circulate among the small groups, helping them settle on an app, and suggesting directions for them to go.     
     > Preparation: Look through some of the [little apps](http://statprep.org/little-apps-for-teaching-stats/), perhaps referring to the instructor organization. Find a couple of statistical concepts that can be illustrated in a compelling way with the apps. Then you can use this is guiding the small groups.
 
 
 ## Saturday
 
-1. Exploring statistics using tutorials. This will be individual or small-group work where participants can follow their own interests. A major goal is for participants to practice and consolidate skills with R as introduced on Friday 5.
-    > Leaders will circulate among the individuals/groups.
+1. Exploring statistics using tutorials. This will be individual or small-group work where participants can follow their own interests. A major goal is for participants to practice and consolidate skills with R as introduced on Friday 5.    
+
+    > Leaders will circulate among the individuals/groups.    
     > Preparation: General familiarity with the various tutorials posted [here](https://Statprep.github.io/Workshops_2018/Tutorials/tutorials.html). You don't have to be an expert.
     
 2. Statistical concepts. Back to lecture mode. The goal of this section is to introduce the participants to an approach to teaching (or doing) statistics that they might not have encountered before. Current plan is to two this in two parallel sessions: one about resampling/randomization and the other about regression.
-    > We need a leader for each track. Danny is planning to do the regression track. You've got considerable flexibility in how to do the resampling track: you can make use of the posted documents to whatever extent you like. 
+    
+    > We need a leader for each track. Danny is planning to do the regression track. You've got considerable flexibility in how to do the resampling track: you can make use of the posted documents to whatever extent you like.    
     > Preparation: for the resampling track, using the calculation style introduced on Friday but adding in randomization and iteration. [This vignette](https://cran.r-project.org/web/packages/mosaic/vignettes/Resampling.pdf) might be helpful in preparing.
     
 3. Communicating with your students. 
-    > We need a leader for each track with others helping out individuals as needed. 
-    > Preparation: For the class website track, familiarity with GitHub and GitHub pages, cloning and renaming repositories, writing markdown. Note that the single-page style involves editing using the GitHub web interface. The multipage style involves using RStudio with GitHub-based projects (creating, pulling, pushing, etc.), writing RMarkdown, compiling with knitr.
+    
+    > We need a leader for each track with others helping out individuals as needed.     
+    > Preparation: For the class website track, familiarity with GitHub and GitHub pages, cloning and renaming repositories, writing markdown. Note that the single-page style involves editing using the GitHub web interface. The multipage style involves using RStudio with GitHub-based projects (creating, pulling, pushing, etc.), writing RMarkdown, compiling with knitr.    
     > Preparation: For the rstudio.cloud track, general familiarity with RStudio, playing around a bit with your own rstudio.cloud account.
     
 4. Developing lessons. Small-group work with one workshop leader per group. This is very open ended and you'll be drawing on your general professional experience as a teacher and lesson-writer.  You'll work with the group to decide what kind of lesson they want to write, moderate their discussions about what should go into the lesson, and provide technical help (as needed) to turn their ideas into class notes about a Little App or a `learnr` tutorial. The little apps come with data already in place, but `learnr` tutorials should focus on data, so it's important to identify one or more datasets to be at the core of the lesson. You can help them with this however you want: scraping data, using data from your own experience, etc.
-    > Preparation: A broad familiarity with RStudio and RMarkdown/knitr will do. It's nice if you can produce documents on rstudio.cloud so they can be shared easily. You don't have to worry about publishing/deploying the lesson documents: we'll do that after the workshop.
+    
+    > Preparation: A broad familiarity with RStudio and RMarkdown/knitr will do. It's nice if you can produce documents on rstudio.cloud so they can be shared easily. You don't have to worry about publishing/deploying the lesson documents: we'll do that after the workshop.    
     > Preparation: For the `learnr` tutorials, a little experience writing such tutorials. They are pretty straightforward for an advanced R/RMarkdown user. There are many examples at [the StatPREP GitHub repo InstructorLessons](https://github.com/StatPREP/InstructorLessons), and RStudio gives [good documentation](https://rstudio.github.io/learnr/). You DO NOT have to become an expert. If you've get just brief experience with `learnr`, there will be others at the workshop who can help you with any glitches, etc.
+    
+    
