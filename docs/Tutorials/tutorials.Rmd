@@ -129,12 +129,19 @@ riverboat_thumb <-
 read_class_data_thumb <- 
   app_thumbnail("http://dtkaplan.shinyapps.io/Lesson_read_class_data.png", 
                 "thumbnails/lesson_read_class_data.png",
-                "Accessing data on a Google spreadsheet✐")
+                "Accessing in-class data")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Whats_normal/#section-the-age-distribution-graphically")
+whats_normal_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Whats_normal", 
+                "thumbnails/whats_normal.png",
+                "What's normal?")
+
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    first_day_thumb, globe_toss_thumb, riverboat_thumb, read_class_data_thumb
+    first_day_thumb, globe_toss_thumb, riverboat_thumb, read_class_data_thumb, whats_normal_thumb
 )
 ```
 

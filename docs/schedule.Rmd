@@ -9,29 +9,14 @@ output:
 
 # Schedule of Workshop Activities
 
-This schedule is the central collection of links to items that will be used in the StatPREP workshops. Participants should bookmark it in the browser for easy access during the workshop.
+This schedule is intended to be the hub from which you can access notes and activities for the StatPREP 2018 workshops. You might want to bookmark it in your browser so that you can find it quickly.
 
-This schedule does not include information about specific timing, breaks, meals, and such. That's because each of the four workshop locations will have slightly different arrangements with respect to those things.
-
-You'll notice that there are three distinct styles of interaction planned for the workshop:
-
-1. Presentations and discussions that are in the style of a class you might teach your own students, but with the workshop participants playing the role of the students.
-2. Activities where the participants are preparing lessons for use in their own classrooms.
-3. Training and work as data scientists undertaking analysis of data.
-
-Schedule items will be marked with an icon indicating which styles are applicable.
-
-### Help for shy people
-
-<span style="color:red;"><strong>HELP!</strong></span> Everyone falls behind from time to time. But sometimes people are afraid to interrupt. 
-
-<center><a href="https://docs.google.com/document/d/1jvHUafLPBKBOHLRGwHutf_hnRhkv-qiiRlgM_L57SA8/edit?usp=sharing"><img src="images/help-for-shy-people.png", width = 400px></a></center>
-
-Click on the above document where you can post requests for help, suggestions, criticisms, complements, etc. The hub and the workshop leaders will be monitoring this during the workshop.
+Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're too shy to ask a question out loud. Also use it to help the StatPREP organizers by posting comments, criticisms, suggestions, and such. 
 
 ## Friday
 
-1. [Welcome](greetings.html)[*](greetings.html)
+1. Welcome[.](greetings.html)
+
 2. Examples of in-class lessons centered on data
     - Start with graphics: Randy Pruim's first-day-of-class activity [tutorial](http://dtkaplan.shinyapps.io/USBirths) and [notes on plotting](http://dtkaplan.shinyapps.io/Plotting_with_formulas)
     - Lessons using the [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
@@ -46,23 +31,41 @@ Click on the above document where you can post requests for help, suggestions, c
 5. Computing in tutorial form
     - Starting R: [functions](http://dtkaplan.shinyapps.io/Functions), [formulas](http://dtkaplan.shinyapps.io/Formulas), and parts of speech [notes](http://gifted-saha-3345d3.netlify.com/post/reading-r/) and [quiz](https://dtkaplan.shinyapps.io/part-of-speech-quiz/)
     - [Tidy data frames](https://dtkaplan.shinyapps.io/Data_tables/)
-    - [Statistics on one variable](http://dtkaplan.shinyapps.io/Qstats) [Note in draft, this needs to be updated to a version using `mosaicModel`.]
-    - [Relationships between two variables](http://dtkaplan.shinyapps.io/Scatterplots)
+    - [Graphics for data science](https://dtkaplan.shinyapps.io/tutorial_data_science_graphics)
+    - [Calculating statistics](https://dtkaplan.shinyapps.io/Tutorial_Calculating_statistics/)
     - For year-two workshops, there's an optional alternative track about using lessons in tutorial format.
 6. [Computing with Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
 
 ## Saturday
 
-1. Exploring statistics using tutorials: a collection of choices
-2. Statistical concepts
-    - It's all [regression](https://dtkaplan.shinyapps.io/SimpleRegression/)
+1. Exploring statistics using tutorials: a [collection of choices](https://statprep.github.io/Workshops_2018/Tutorials/tutorials.html)
+
+2. Statistical concepts: Two tracks:
+    - [Streamlining inference with regression](https://dtkaplan.shinyapps.io/Tutorial_its_all_regression/)
     - Simulation-based inference [sampling](http://dtkaplan.shinyapps.io/Sampling), [resampling](http://dtkaplan.shinyapps.io/Resampling), and [shuffling](https://dtkaplan.shinyapps.io/Permutation_test/)
+    
 3. Communicating with your students: Two tracks
-    - Setting up a course web site: Links: [simple site] & [RStudio managed site]
+    - [Setting up a course web site.](https://statprep.github.io/InstructorNotes/your-course-web-site.html)
     - Computing with [rstudio.cloud](http:rstudio.cloud)
+    
 4. Lesson development: Small group activity with two tracks
     - Developing lessons based on [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
-    - Developing lessons using R commands. (An example from last year: )
+    - Developing lessons using R commands.
+    
 5. Brief presentations of lessons developed
+
 6. Evaluation: Help us improve!
-6. Going forward ... support and staying in touch
+
+7. Going forward ... support and staying in touch
+
+### Explanation
+
+This schedule does not include information about specific timing, breaks, meals, and such. That's because each of the four workshop locations will have slightly different arrangements with respect to those things.
+
+You'll notice that there are three distinct styles of interaction planned for the workshop:
+
+1. Presentations and discussions that are in the style of a class you might teach your own students, but with the workshop participants playing the role of the students.
+2. Activities where the participants are preparing lessons for use in their own classrooms.
+3. Training and work as data scientists undertaking analysis of data.
+
+

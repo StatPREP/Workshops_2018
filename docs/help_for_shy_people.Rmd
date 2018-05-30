@@ -1,0 +1,16 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+```{r child="header.md"}
+```
+<!-- Edit below this line. -->
+
+# Help for shy people
+
+<span style="color:red;"><strong>HELP!</strong></span> Everyone falls behind from time to time. But sometimes people are afraid to interrupt. 
+
+<center><a href="https://docs.google.com/document/d/1jvHUafLPBKBOHLRGwHutf_hnRhkv-qiiRlgM_L57SA8/edit?usp=sharing"><img src="images/help-for-shy-people.png", width = 400px></a></center>
+
+Click on the above document where you can post requests for help, suggestions, criticisms, complements, etc. The hub and the workshop leaders will be monitoring this during the workshop.
