@@ -59,7 +59,7 @@ densities_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Tutorial_Densiti
                                "Histograms and better")
 
 # make_thumbnail_image("https://dtkaplan.shinyapps.io/tutorial_conventional_graphics/#section-histogram")
-conventional_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/tutorial_conventional_graphics/",
+conventional_graphics_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/tutorial_conventional_graphics/",
                                "thumbnails/tutorial_conventional.png",
                                "Conventional graphics")
 
@@ -81,13 +81,23 @@ workshop_wrangling_thumb <-
                 "thumbnails/workshop_wrangling.png",
                 "Data wrangling✐")
 
+# make_thumbnail_image("http://dtkaplan.shinyapps.io/Tutorial_regression")
+regression_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_regression", 
+                "thumbnails/Tutorial_regression.png",
+                "Regression")
 
+# make_thumbnail_image("http://dtkaplan.shinyapps.io/Tutorial_classical_inference")
+classical_inference_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_classical_inference", 
+                "thumbnails/Tutorial_classical_inference.png",
+                "Classical statistical inference")
 
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_thumb, data_graphics_thumb, data_verbs_thumb, workshop_wrangling_thumb
+    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_graphics_thumb, data_graphics_thumb, data_verbs_thumb, workshop_wrangling_thumb, regression_thumb, classical_inference_thumb
 )
 ```
 
