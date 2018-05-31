@@ -93,11 +93,17 @@ classical_inference_thumb <-
                 "thumbnails/Tutorial_classical_inference.png",
                 "Classical statistical inference")
 
+# make_thumbnail_image("http://dtkaplan.shinyapps.io/Tutorial_its_all_regression")
+its_all_regression_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_its_all_regression", 
+                "thumbnails/Tutorial_its_all_regression.png",
+                "Streamlining inference with regression")
+
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_graphics_thumb, data_graphics_thumb, data_verbs_thumb, workshop_wrangling_thumb, regression_thumb, classical_inference_thumb
+    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_graphics_thumb, data_graphics_thumb, data_verbs_thumb, workshop_wrangling_thumb, regression_thumb, classical_inference_thumb, its_all_regression_thumb
 )
 ```
 
