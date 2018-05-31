@@ -112,6 +112,12 @@ sampling_thumb <-
                 "thumbnails/Tutorial_sampling.png",
                 "Sampling")
 
+# make_thumbnail_image("http://dtkaplan.shinyapps.io/Tutorial_permutation_test")
+permutation_test_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_permutation_test", 
+                "thumbnails/Tutorial_permutation_test.png",
+                "Permutation test")
+
 ```
 
 ## Tutorials
@@ -140,7 +146,7 @@ div(class = "row", data_verbs_thumb, workshop_wrangling_thumb)
 ```{r echo = FALSE}    
 div(class = "row", 
     regression_thumb, classical_inference_thumb, its_all_regression_thumb,
-    sampling_thumb, resampling_thumb
+    sampling_thumb, resampling_thumb, permutation_test_thumb
 )
 ```
 
