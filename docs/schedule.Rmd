@@ -19,7 +19,7 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
 
 2. Examples of in-class lessons centered on data
     - Start with graphics: Randy Pruim's first-day-of-class activity [tutorial](http://dtkaplan.shinyapps.io/USBirths) and [notes on plotting](http://dtkaplan.shinyapps.io/Plotting_with_formulas)
-    - Lessons using the [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
+    - Two-sample t [*Little App*](https://dtkaplan.shinyapps.io/LittleApp-t2/)
     - Concept lesson: What's normal? [Background](http://statprep.org/lesson-whats-normal/) and [activity](https://dtkaplan.shinyapps.io/Whats_normal)
 3. Collecting data with your students
     - Icebreaker

@@ -1,0 +1,69 @@
+---
+output: 
+  rmarkdown::html_document:
+    theme: paper
+---
+```{r child="../header.md"}
+```
+<!-- Edit below this line. -->
+
+```{r include = FALSE}
+library(SDSdata)
+library(htmltools)
+```
+
+<!--0 “default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”, “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti” -->
+
+<!-- Make the thumbnails with `make_thumbnail_image()` in SDSdata, e.g.
+make_thumbnail_image("https://dtkaplan.shinyapps.io/Starbucks/#section-visualizing-starbucks-locations", delay = 10)
+-->
+
+# StatPREP Lessons
+
+StatPREP Lessons are intended for use with students. (In contrast to "tutorials", which are intended to help instructors gain skills.)
+
+
+```{r echo = FALSE}
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Lesson_first_day_births/", delay = 10)
+first_day_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Lesson_first_day_births/",
+                                 "thumbnails/lesson_first_day_births.png",
+                                 "A first-day lesson")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/")
+globe_toss_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/tutorial_globe_toss.png", 
+                "thumbnails/tutorial_globe_toss.png",
+                "Collecting data: Globe toss✐")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle/")
+riverboat_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle.png", 
+                "thumbnails/tutorial_riverboat_shuffle.png",
+                "A Riverboat Card Trick✐")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Lesson_read_class_data/")
+read_class_data_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Lesson_read_class_data.png", 
+                "thumbnails/lesson_read_class_data.png",
+                "Accessing in-class data")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Whats_normal/#section-the-age-distribution-graphically")
+whats_normal_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Whats_normal", 
+                "thumbnails/whats_normal.png",
+                "What's normal?")
+
+```
+
+```{r echo = FALSE}
+div(class = "row",
+    first_day_thumb, globe_toss_thumb, riverboat_thumb, read_class_data_thumb, whats_normal_thumb
+)
+```
+
+
+
+
+
+
+

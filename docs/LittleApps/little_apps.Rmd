@@ -1,0 +1,54 @@
+---
+output: 
+  rmarkdown::html_document:
+    theme: paper
+---
+```{r child="../header.md"}
+```
+<!-- Edit below this line. -->
+
+```{r include = FALSE}
+library(SDSdata)
+library(htmltools)
+```
+
+<!--0 “default”, “cerulean”, “journal”, “flatly”, “readable”, “spacelab”, “united”, “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti” -->
+
+<!-- Make the thumbnails with `make_thumbnail_image()` in SDSdata, e.g.
+make_thumbnail_image("https://dtkaplan.shinyapps.io/Starbucks/#section-visualizing-starbucks-locations", delay = 10)
+-->
+
+# StatPREP Little Apps
+
+StatPREP Little Apps are designed to let students explore specific statistical techniques in the context of data. 
+
+
+
+
+```{r echo = FALSE}
+
+t2_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/LittleApp-t2/",
+                                 "thumbnails/LittleApp-t2.png",
+                                 "Two-sample t")
+
+smoother_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/LittleApp-t2/",
+                                 "thumbnails/LittleApp-smoother.png",
+                                 "Regression and Smoothers")
+
+proportion_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/LittleApp-proportion/",
+                                 "thumbnails/LittleApp-proportion.png",
+                                 "Proportions")
+
+center_spread_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/LittleApp-proportion/",
+                                 "thumbnails/LittleApp-center-and-spread.png",
+                                 "Center and Spread")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Formulas/", delay = 10)
+```
+
+```{r echo = FALSE}
+div(class = "row",
+    t2_thumb, smoother_thumb, proportion_thumb, center_spread_thumb)
+```
+    
+WRONG LINK for Smoother

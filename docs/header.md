@@ -5,4 +5,6 @@
 <!-- ![](images/banner.jpg){img:height="300px" width="100%"} -->
 <!-- If you don't want a banner, delete the previous line.  -->
 
-**Menu**: [workshop homepage](https://Statprep.github.io/Workshops_2018/index.html) :: [schedule](https://Statprep.github.io/Workshops_2018/schedule.html) :: [tutorials](https://Statprep.github.io/Workshops_2018/Tutorials/tutorials.html) :: [resources](https://Statprep.github.io/Workshops_2018/resources.html) :: [HELP!!](https://Statprep.github.io/Workshops_2018/help_for_shy_people.html)
+[homepage](https://Statprep.github.io/Workshops_2018/index.html) :: [schedule](https://Statprep.github.io/Workshops_2018/schedule.html) :: [tutorials](https://Statprep.github.io/Workshops_2018/Tutorials/tutorials.html) ::
+[lessons](https://Statprep.github.io/Workshops_2018/Lessons/lessons.html) ::
+[resources](https://Statprep.github.io/Workshops_2018/resources.html) :: [HELP!!](https://Statprep.github.io/Workshops_2018/help_for_shy_people.html)
