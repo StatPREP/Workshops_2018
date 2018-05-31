@@ -18,15 +18,15 @@ library(htmltools)
 make_thumbnail_image("https://dtkaplan.shinyapps.io/Starbucks/#section-visualizing-starbucks-locations", delay = 10)
 -->
 
-# StatPREP R
+# StatPREP lessons and tutorials
+
+A StatPREP **tutorial** is an interactive document mainly intended to help **instructors** develop statistical, graphical, and general computing skills using R statements. In contrast, a StatPREP **lesson** is intended for use with students, for instance as an in-class demonstration or activity. 
 
 This page provides links to lessons based on interacting with R. Each link takes you to a web service that displays the document in your web browser. You don't need to install any other software on your computer to use the lessons and tutorials.
 
-The StatPREP approach to statistics uses the R notation developed by Project MOSAIC, based on a simple, consistent template that works across statistical operations and graphics.
-
 In the following, **lessons** are intended for use in class or other student-oriented settings. In contrast, **tutorials** are intended to help instructors (or others) develop general skills in using MOSAIC for statistical and graphical calculations.
 
-## Tutorials
+
 
 ```{r echo = FALSE}
 # make_thumbnail_image("https://dtkaplan.shinyapps.io/Functions/", delay = 10)
@@ -99,11 +99,48 @@ its_all_regression_thumb <-
                 "thumbnails/Tutorial_its_all_regression.png",
                 "Streamlining inference with regression")
 
+
+# make_thumbnail_image("http://dtkaplan.shinyapps.io/Tutorial_resampling")
+resampling_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_resampling", 
+                "thumbnails/Tutorial_resampling.png",
+                "Resampling")
+
+# make_thumbnail_image("http://dtkaplan.shinyapps.io/Tutorial_sampling")
+sampling_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_sampling", 
+                "thumbnails/Tutorial_sampling.png",
+                "Sampling")
+
 ```
 
+## Tutorials
+
+### R and data fundamentals
 ```{r echo = FALSE}
 div(class = "row",
-    functions_thumb, formulas_thumb, data_frames_thumb, counting_thumb, dfstats_thumb, densities_thumb, conventional_graphics_thumb, data_graphics_thumb, data_verbs_thumb, workshop_wrangling_thumb, regression_thumb, classical_inference_thumb, its_all_regression_thumb
+    functions_thumb, formulas_thumb, data_frames_thumb)
+```
+    
+### Descriptive statistics & graphics
+```{r echo = FALSE}    
+div(class = "row", 
+     counting_thumb, dfstats_thumb, densities_thumb,
+     conventional_graphics_thumb, data_graphics_thumb)
+```
+
+### Data wrangling
+
+```{r echo = FALSE}    
+div(class = "row", data_verbs_thumb, workshop_wrangling_thumb)
+```
+
+### Inference and regression
+
+```{r echo = FALSE}    
+div(class = "row", 
+    regression_thumb, classical_inference_thumb, its_all_regression_thumb,
+    sampling_thumb, resampling_thumb
 )
 ```
 
