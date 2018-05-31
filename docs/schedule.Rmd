@@ -41,8 +41,12 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
 1. Exploring statistics using tutorials: a [collection of choices](https://statprep.github.io/Workshops_2018/Tutorials/tutorials.html)
 
 2. Statistical concepts: Two tracks:
-    - [Streamlining inference with regression](https://dtkaplan.shinyapps.io/Tutorial_its_all_regression/)
-    - Simulation-based inference [sampling](http://dtkaplan.shinyapps.io/Sampling), [resampling](http://dtkaplan.shinyapps.io/Resampling), and [shuffling](https://dtkaplan.shinyapps.io/Permutation_test/)
+    - Streamlining inference with regression
+        - Little app on [regression](https://dtkaplan.shinyapps.io/littleapp-smoothing/), [proportions](https://dtkaplan.shinyapps.io/littleapp-proportions/), [one-way ANOVA](https://dtkaplan.shinyapps.io/littleapp-ANOVA-1/)
+        - R tutorial: (https://dtkaplan.shinyapps.io/Tutorial_its_all_regression/)
+    - Simulation-based inference:
+        - Little apps involving resampling: [confidence intervals](https://dtkaplan.shinyapps.io/littleapp-generate-resamples/) & [proportions](https://dtkaplan.shinyapps.io/littleapp-proportions/)
+        - R tutorials: [sampling](http://dtkaplan.shinyapps.io/Tutorial_sampling), [resampling](http://dtkaplan.shinyapps.io/Tutorial_resampling), and [shuffling](https://dtkaplan.shinyapps.io/Tutorial_permutation_test/)
     
 3. Communicating with your students: Two tracks
     - [Setting up a course web site.](https://statprep.github.io/InstructorNotes/your-course-web-site.html)

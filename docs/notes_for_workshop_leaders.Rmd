@@ -38,7 +38,7 @@ Look over the materials, determine which items you would find attractive to lead
     
     > We need a person to lead each lesson. Do it in your most charismatic style. Pose questions to the students. Discuss.    
     > Preparation: the person leading each lesson should prepare in the same way they might for an actual class.    
-    > For the Little App lesson, we can pick any of the little apps. Remember that the lesson is not about the app. The app is a tool for teaching a statistics lesson. There are some suggestions for lessons posted in the various "instructor orientation" documents [here](http://statprep.org/little-apps-for-teaching-stats/). Or make up your own. (In item (Friday 6), we'll repeat less formally this using different apps than the one presented to the whole group, but in small group format.)
+    > For the Little App lesson, ~~we can pick any of the little apps~~ [I've rethought this.] We should use the [t-test app](https://dtkaplan.shinyapps.io/littleapp-t-statistic/), because that's a topic all the instructors have seen.  Remember that the lesson is not about the app. The app is a tool for teaching a statistics lesson. There are some suggestions for lessons posted in the various "instructor orientation" documents [here](http://statprep.org/little-apps-for-teaching-stats/). Or make up your own. (In item (Friday 6), we'll repeat less formally this using different apps than the one presented to the whole group, but in small group format.)
     
 3. Collecting data with your students. These serve two purposes: an icebreaker to get the participants interacting with one another; a lesson about collecting data with students and using it in class. (Do we really need both? We'll find out at the workshop!)
     
