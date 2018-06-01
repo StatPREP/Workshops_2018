@@ -29,25 +29,8 @@ In the workshop, we'll ...
 * Demonstrate relatively new ideas in statistics theory and statistics pedagogy so that you can consider augmenting and updating your current pedagogy.
 * Introduce you to the software that underlies the StatPREP materials with an eye to helping you gain familiarity and comfort working with modern statistics and data-science software. Some instructors may prefer to give their students software skills, while others prefer to focus their students' attention on other matters. Whichever group you fall into, knowing the basics of statistical software will help you develop professionally.
  
-We will start on Friday ...
 
-- with a few examples of data-centric lessons, then move on to ... 
-- software systems that can support your classes' access to and collection of data. Following this, we'll ...
-- work with teaching materials that present statistics through highly scaffolded statistics commands in interactive documents called *tutorials*.
 
-On Saturday, we'll ...
-
-- cover basic statistics with a handful of software commands in tutorials, then ...
-- demonstrate two ways of teaching statistics topics: 
-    - randomization-based inference 
-    - regression as the unifying framework for intro stats.
-- Then you can choose either of two simultaneous tracks:
-    - setting up a course web site, or
-    - authoring class notes using RStudio
-- Saturday afternoon will be given over to your developing and presenting lessons or class demonstrations in a small-group format. You'll have a choice of two options:
-    - lessons based on interactive apps that do not require you to write code
-    - lessons based on tutorials that use R commands as a notation for statistics
-- We'll finish up by talking about how StatPREP can support you as you go forward to use these ideas and materials in your own teaching.
 
 ### Introductions
 
@@ -72,6 +55,3 @@ Often, people are a bit shy about asking questions. Two suggestions:
 
 Meals, breaks, toilet, network, parking, ...
 
-## Polls
-
-See the `Montana_poll` instructor tutorial
