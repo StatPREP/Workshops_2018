@@ -65,11 +65,17 @@ diabetes_thumb <-
                 "thumbnails/diabetes.png",
                 "Detecting diabetes✐✐✐")
 
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Confidence_in_Taxis/#section-your-predicament")
+taxi_thumb <- 
+  app_thumbnail("https://dtkaplan.shinyapps.io/Confidence_in_Taxis", 
+                "thumbnails/confidence_in_taxis.png",
+                "Confidence in taxis")
+
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    first_day_thumb, globe_toss_thumb, riverboat_thumb, read_class_data_thumb, whats_normal_thumb, paper_planes_thumb, diabetes_thumb
+    first_day_thumb, globe_toss_thumb, riverboat_thumb, read_class_data_thumb, whats_normal_thumb, paper_planes_thumb, diabetes_thumb, taxi_thumb
 )
 ```
 
