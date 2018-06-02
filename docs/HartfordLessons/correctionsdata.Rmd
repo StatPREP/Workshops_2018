@@ -1,0 +1,140 @@
+---
+title: "Sampling distributions and the Hartford corrections data"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## Loading data
+
+We got this data from [http://data.hartford.gov/](http://data.hartford.gov/)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
+library(mosaic)
+library(lubridate)
+library(readr)
+```
+
+
+
+
+```{r, message=FALSE}
+correction <- read_csv("Correctional_Facility_Daily_Population_Count_By_Facility.csv")
+
+correction <- correction %>%
+  rename(name = `Facility Name`) %>%
+  rename(accused = `Accused/Other Status Count`) %>%
+  rename(sentenced = `Sentenced Status Count`) %>%
+  rename(total = `Total Facility Population Count`) %>%
+  mutate(Date = mdy(Date))
+```
+
+
+## Where are the most accused?
+
+```{r}
+correction %>%
+  df_stats(accused~name, mean) %>%
+  arrange(desc(mean_accused))
+```
+
+## Focus on Hartford
+
+```{r}
+hartford <- correction %>%
+  filter(name == "HARTFORD CC")
+```
+
+
+## Plotting
+
+```{r}
+gf_point(accused~Date, data=hartford)
+gf_line(accused~Date, data=hartford)
+```
+
+## More complicated filtering
+
+I wonder about how Osborn and Enfield look. Let's filter it. 
+
+```{r}
+correction %>%
+  filter(name == "OSBORN CI" | name == "ENFIELD CI")
+```
+
+
+## Sampling 
+
+(we copied this code from [Danny's resampling lesson](https://dtkaplan.shinyapps.io/Tutorial_resampling/) so we didn't have to start from scratch!)
+
+```{r}
+Trials <-   
+  do(2000) * {
+    correction %>%
+      sample_n(size = 50, replace=FALSE) %>%
+      df_stats( ~ total, mean)
+  }
+
+```
+
+```{r}
+gf_histogram(~mean_total, data=Trials)
+```
+
+## What if we changed the sample size?
+
+```{r}
+Trials5 <- 
+  do(2000) * {
+    correction %>%
+      sample_n(size = 5, replace=FALSE) %>%
+      df_stats( ~ total, mean)
+  }
+
+Trials10 <- 
+  do(2000) * {
+    correction %>%
+      sample_n(size = 10, replace=FALSE) %>%
+      df_stats( ~ total, mean)
+  }
+
+Trials100 <- 
+  do(2000) * {
+    correction %>%
+      sample_n(size = 100, replace=FALSE) %>%
+      df_stats( ~ total, mean)
+  }
+```
+
+## (Tidying the data)
+
+```{r}
+alltrials <- data.frame(ss5 = Trials5$mean_total, ss10 = Trials10$mean_total, ss100 = Trials100$mean_total)
+library(tidyr)
+alltrials <- alltrials %>%
+  gather(key=which, value=mean)
+```
+
+## Plotting the sampling distributions!
+
+```{r}
+gf_histogram(~mean, data=alltrials, fill = ~ which)
+gf_violin(mean~which, data=alltrials)
+df_stats(mean~which, data=alltrials, mean, sd)
+```
+
+What about the means of the groups?
+ 
+```{r}
+Trials %>%
+  df_stats(~mean_total, mean)
+```
+
+What was our population mean?
+```{r}
+correction %>%
+  df_stats(~total, mean)
+```
+
+

@@ -19,6 +19,8 @@ output:
 
 * [Instructor notes for StatPREP technologies](http://StatPREP.github.io/InstructorNotes)
 
+* [Amelia Macnamara's notes on R](HartfordLessons/Amiliaspresentation.pdf)
+
 ## Professional Guidelines
 
 * The [GAISE college report](http://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf)

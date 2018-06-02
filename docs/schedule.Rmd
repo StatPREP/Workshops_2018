@@ -58,7 +58,7 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
 5. Brief presentations of lessons developed
     - [Data from the island](https://docs.google.com/document/d/1HMSh8hl6ImGAIzMuWwmq2600zbJb3DQjCw-qcKuTAQc/edit?usp=sharing)
     - [Post-it Notes](HartfordLessons/posted_notes.Rmd)
-    - [Hartford Corrections data]()
+    - Hartford Corrections data in [HTML](HartfordLessons/correctionsdata.html) and [Rmd](HartfordLessons/correctionsdata.Rmd) and the [data set](HartfordLessons/Correctional_Facility_Daily_Population_Count_By_Facility.csv)
 
 6. Evaluation: Help us improve!
 
