@@ -1,0 +1,46 @@
+---
+title: "Sampling_Distributions"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Sampling of Data
+
+Have the students in either one class or all statistics class complete a survey using google forms.The survey should involve both quantitative and qualititaive.
+Read the data into R. Students then decide if they should take a random sample, statified, systematic, or cluster sample. Then have R take the sample chossen. 
+
+```{r}
+
+```
+
+## Summary statistics
+
+Have students calculate descriptive statitistics on a particular variable.
+
+```{r echo = FALSE}
+summary()
+```
+
+Students need to type their descriptive statitics into a google sheet. The data in the google sheet could be used in the future to create a sampling distributiuon. 
+
+```{r}
+sampling distribution
+```
+
+## Confidence interval
+
+Create a confidence interval of a particular variable. Create confidence interval using a different sampling method. 
+```{r}
+
+```
+
+## Hyothesis testing
+
+Run a hypothesis test of the variable. Test using different sampling method.
+
+## Compare sample and population
+Calculate the mean for the variable from the entire population.
+Compare the sample means from the confidence intervals to the population mean.
