@@ -56,6 +56,7 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
     - Developing lessons using R commands.
     
 5. Brief presentations of lessons developed
+    - [Data from the island](https://docs.google.com/document/d/1HMSh8hl6ImGAIzMuWwmq2600zbJb3DQjCw-qcKuTAQc/edit?usp=sharing)
 
 6. Evaluation: Help us improve!
 
