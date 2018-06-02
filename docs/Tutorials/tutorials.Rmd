@@ -18,13 +18,13 @@ library(htmltools)
 make_thumbnail_image("https://dtkaplan.shinyapps.io/Starbucks/#section-visualizing-starbucks-locations", delay = 10)
 -->
 
-# StatPREP lessons and tutorials
+# StatPREP tutorials
 
-A StatPREP **tutorial** is an interactive document mainly intended to help **instructors** develop statistical, graphical, and general computing skills using R statements. In contrast, a StatPREP **lesson** is intended for use with students, for instance as an in-class demonstration or activity. 
+A StatPREP **tutorial** is an interactive document mainly intended to help **instructors** develop statistical, graphical, and general computing skills using R statements. 
 
-This page provides links to lessons based on interacting with R. Each link takes you to a web service that displays the document in your web browser. You don't need to install any other software on your computer to use the lessons and tutorials.
+This page provides **links** to instructor tutorials. Each link takes you to a web service that displays the document in your web browser. You don't need to install any other software on your computer to use the lessons and tutorials.
 
-In the following, **lessons** are intended for use in class or other student-oriented settings. In contrast, **tutorials** are intended to help instructors (or others) develop general skills in using MOSAIC for statistical and graphical calculations.
+If you're looking for materials for use in class or other student-oriented settings, follow these links to StatPREP [**lessons**](../Lessons/lessons.html) or [**Little Apps**](../LittleApps/little_apps.html) 
 
 
 
@@ -147,50 +147,6 @@ div(class = "row", data_verbs_thumb, workshop_wrangling_thumb)
 div(class = "row", 
     regression_thumb, classical_inference_thumb, its_all_regression_thumb,
     sampling_thumb, resampling_thumb, permutation_test_thumb
-)
-```
-
-
-## Lessons
-
-
-
-
-```{r echo = FALSE}
-# make_thumbnail_image("https://dtkaplan.shinyapps.io/Lesson_first_day_births/", delay = 10)
-first_day_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Lesson_first_day_births/",
-                                 "thumbnails/lesson_first_day_births.png",
-                                 "A first-day lesson")
-
-# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/")
-globe_toss_thumb <- 
-  app_thumbnail("http://dtkaplan.shinyapps.io/tutorial_globe_toss.png", 
-                "thumbnails/tutorial_globe_toss.png",
-                "Collecting data: Globe toss✐")
-
-# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle/")
-riverboat_thumb <- 
-  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle.png", 
-                "thumbnails/tutorial_riverboat_shuffle.png",
-                "A Riverboat Card Trick✐")
-
-# make_thumbnail_image("https://dtkaplan.shinyapps.io/Lesson_read_class_data/")
-read_class_data_thumb <- 
-  app_thumbnail("http://dtkaplan.shinyapps.io/Lesson_read_class_data.png", 
-                "thumbnails/lesson_read_class_data.png",
-                "Accessing in-class data")
-
-# make_thumbnail_image("https://dtkaplan.shinyapps.io/Whats_normal/#section-the-age-distribution-graphically")
-whats_normal_thumb <- 
-  app_thumbnail("http://dtkaplan.shinyapps.io/Whats_normal", 
-                "thumbnails/whats_normal.png",
-                "What's normal?")
-
-```
-
-```{r echo = FALSE}
-div(class = "row",
-    first_day_thumb, globe_toss_thumb, riverboat_thumb, read_class_data_thumb, whats_normal_thumb
 )
 ```
 

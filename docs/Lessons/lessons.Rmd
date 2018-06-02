@@ -53,11 +53,23 @@ whats_normal_thumb <-
                 "thumbnails/whats_normal.png",
                 "What's normal?")
 
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Paper_planes")
+paper_planes_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Paper_planes", 
+                "thumbnails/paper_planes.png",
+                "An experiment")
+
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Diabetes/")
+diabetes_thumb <- 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Diabetes.png", 
+                "thumbnails/diabetes.png",
+                "Detecting diabetes✐✐✐")
+
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
-    first_day_thumb, globe_toss_thumb, riverboat_thumb, read_class_data_thumb, whats_normal_thumb
+    first_day_thumb, globe_toss_thumb, riverboat_thumb, read_class_data_thumb, whats_normal_thumb, paper_planes_thumb, diabetes_thumb
 )
 ```
 
