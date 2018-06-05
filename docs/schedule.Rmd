@@ -20,20 +20,14 @@ Since the schedule evolves a bit from one workshop location to another, we're ar
 
 Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're too shy to ask a question out loud. Also use it to help the StatPREP organizers by posting comments, criticisms, suggestions, and such. 
 
-Start with a local dataset, e.g. the prison occupation in Hartford.
-
-Cheat sheet for R: 
-
-Early session: What do you have to know about graphics to use the little apps.
-
-Instructors want to bring their own lesson and figure out how to modify that.
-
 --------------------
 
 
-## Schedule for next workshop
+## Schedule for Saint Kate's workshop
 
 ## Friday
+
+4:00 pm Start
 
 1. Welcome[.](Greetings_slides/cars_and_stats.html)
 
@@ -42,19 +36,22 @@ Instructors want to bring their own lesson and figure out how to modify that.
     - Concept lesson: What's normal? [Background](http://statprep.org/lesson-whats-normal/) and [activity](https://dtkaplan.shinyapps.io/Whats_normal)
     - On your own ... Start with graphics: Randy Pruim's first-day-of-class activity [tutorial](https://dtkaplan.shinyapps.io/Lesson_first_day_births/) and [notes on plotting](http://dtkaplan.shinyapps.io/Plotting_with_formulas)
 
-4. Tidy data: 
+3. Data and statistical graphics: 
     - [Notes](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4) and some group activities [one](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-2), [two](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4)
 
-5. Tidy graphics: The graphics behind the Little Apps.
+4. Tidy graphics: The graphics behind the Little Apps.
 
-6. Thinking about lessons. Select three topics from your current stats course that you would like to teach with data. They could be, for example, a technique, theory, or a project. 
+6:00 pm Dinner at 6 pm 
+
+5. Thinking about lessons. Select three topics from your current stats course that you would like to teach with data. They could be, for example, a technique, theory, or a project. 
     - Working with local data
     - Working with [Little Apps](LittleApps/little_app.html)
     
-5. Learning R: Two tracks
+6. Learning R: Two tracks
     - Starting R: [functions](http://dtkaplan.shinyapps.io/Functions), [formulas](http://dtkaplan.shinyapps.io/Formulas), and parts of speech [notes](http://gifted-saha-3345d3.netlify.com/post/reading-r/) and [quiz](https://dtkaplan.shinyapps.io/part-of-speech-quiz/) and continue on with  [Tidy data frames](https://dtkaplan.shinyapps.io/Data_tables/), [Graphics for data science](https://dtkaplan.shinyapps.io/tutorial_data_science_graphics), [Calculating statistics](https://dtkaplan.shinyapps.io/Tutorial_Calculating_statistics/)
     - Using RStudio.cloud
-6. [Computing with Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
+
+8:00 pm Adjourn
 
 ## Saturday
 
@@ -77,20 +74,20 @@ Instructors want to bring their own lesson and figure out how to modify that.
         
 4. Determining lesson-development groups
     
-4. Lesson development: Small group activity with two tracks
+5. Lesson development: Small group activity with two tracks
     - Developing lessons based on [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
     - Developing lessons using R commands.
     
-5. Brief presentations of lessons developed
+6. Brief presentations of lessons developed
     - Hartford
         - [Data from the island](https://docs.google.com/document/d/1HMSh8hl6ImGAIzMuWwmq2600zbJb3DQjCw-qcKuTAQc/edit?usp=sharing)
         - [Post-it Notes](HartfordLessons/posted_notes.Rmd)
         - Hartford Corrections data in [HTML](HartfordLessons/correctionsdata.html) and [Rmd](HartfordLessons/correctionsdata.Rmd) and the [data set](HartfordLessons/Correctional_Facility_Daily_Population_Count_By_Facility.csv) ... or the [rstudio.cloud project](https://rstudio.cloud/project/39333)
     - St. Paul
 
-6. Evaluation: Help us improve!
+7. Evaluation: Help us improve!
 
-7. Going forward ... support and staying in touch
+8. Going forward ... support and staying in touch
 
 ### Explanation
 

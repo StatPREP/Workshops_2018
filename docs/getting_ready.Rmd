@@ -9,6 +9,23 @@ output:
 
 # Getting ready for your workshop
 
+Please take a bit of time to prepare for the workshop. When you have done what you can, please fill in [this very short form](https://docs.google.com/forms/d/e/1FAIpQLSdstrq-53AUCYWCGRV__9e8LS7xq2dws00RpCywAhSqCIlClQ/viewform?usp=sf_link).
+
+## Intellectual thread
+
+Think about the intro statistics course that you teach now or expect to teach.
+
+* What do you teach students about handling data? (That is, not about the analysis of data but about how data is stored, accessed, transformed?)
+* Which topics do you find unsatisfying? (This could be because you just don't like them, because students don't succeed in mastering the topic, or because they make no sense/don't fit in.)
+* Which lesson have you been aching to improve?
+* Hypothetical: Suppose you were tasked to develop a version of your statistics course that is only 2/3 as long as your current course. Which topics would you drop or consolidate? (Don't worry, you won't be asked to do this. We merely want to prompt you to prioritize the topics in your course.)
+* What data sets do you currently use that you would like to give a higher profile?
+* Are there data sets that you'd like to incorporate but haven't had a chance to do so?
+
+Please write some notes about these questions (even if very brief), print them, and **bring them to the workshop**. Including your name is optional.
+
+## Technical thread
+
 You'll want to have a laptop or tablet computer so that you can participate directly in the many hands-on activities in the workshop. Whatever kind of machine it is, it should have three basic capabilities:
 
 * A browser, e.g. Chrome or Safari or Firefox or IE
@@ -41,8 +58,12 @@ In selecting your user ID for GitHub, keep in mind that the ID is something that
 
 Follow [this link to GitHub's account creation page](https://github.com/). And *don't be intimidated* by the "Built for developers" label. 
 
+Once you've set up your account, GitHub will email a confirmation letter. **Make sure to click the confirm button** in the email.
+
 ### 3. RStudio cloud
 
 We want you to have access to RStudio so that you can use it *if you decide you want to*. We'll show everyone some basics at the workshop so you can make an informed decision.
 
 You can sign in using either your Google or your GitHub credentials; there's no need to set up a separate ID or password. Go to [`rstudio.cloud`](rstudio.cloud).
+
+Remember to fill out the [very brief form](https://docs.google.com/forms/d/e/1FAIpQLSdstrq-53AUCYWCGRV__9e8LS7xq2dws00RpCywAhSqCIlClQ/viewform?usp=sf_link) summarizing your preparation.
