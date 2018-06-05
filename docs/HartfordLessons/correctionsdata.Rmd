@@ -119,8 +119,8 @@ alltrials <- alltrials %>%
 ## Plotting the sampling distributions!
 
 ```{r}
-gf_histogram(~mean, data=alltrials, fill = ~ which)
-gf_violin(mean~which, data=alltrials)
+gf_density(~mean, data=alltrials, fill = ~ which, alpha=.2, position="stack")
+gf_jitter(mean ~ which, alpha = 0.1, data = alltrials, width = 0.3) %>% gf_violin(mean~which, data=alltrials, color=NA, fill="blue", alpha=0.4)
 df_stats(mean~which, data=alltrials, mean, sd)
 ```
 
