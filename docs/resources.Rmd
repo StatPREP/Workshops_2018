@@ -50,6 +50,8 @@ modification) when preparing your own courses.
     
     The Open Intro books are available free on line and in print form for less than $10. We're going to use them as a source for examples in the tutorials and to illustrate "typical" textbook problems. 
     
+* The very early stages of a textbook, [*Statistics for Data Science*](https://dtkaplan.github.io/SDS), being written by Danny Kaplan.
+    
 ## Professional Guidelines
 
 * The [GAISE college report](http://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf)
