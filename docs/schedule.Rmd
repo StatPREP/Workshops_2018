@@ -40,6 +40,8 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
     - [Notes](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4) and some group activities [one](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-2), [two](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4)
 
 4. Data and statistical graphics: The graphics behind the Little Apps.
+    - [Tutorial](https://dtkaplan.shinyapps.io/Tutorial_data_and_Statistical_Graphics/)
+    - [Notes](https://dtkaplan.github.io/SDS/data-statistical-graphics.html)
 
 6:00 pm Dinner at 6 pm 
 
