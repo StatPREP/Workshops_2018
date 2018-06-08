@@ -9,22 +9,36 @@ output:
 
 # Resources
 
+## Tutorials
+
 * [Tutorials for instructors](https://statprep.github.io/Workshops_2018/Tutorials/tutorials.html#Lessons)
+
+## Little Apps
 
 * [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/).
 
 * [Revised Little Apps](https://statprep.github.io/Workshops_2018/LittleApps/little_apps.html) coming soon
 
-* [Lessons for use in class](https://statprep.github.io/Workshops_2018/Tutorials/tutorials.html#Lessons)
+## Notes
 
 * [Instructor notes for StatPREP technologies](http://StatPREP.github.io/InstructorNotes)
 
 * [Amelia Macnamara's notes on R](HartfordLessons/Amiliaspresentation.pdf)
 
-## Professional Guidelines
+* [Statistic for Data Science](https://dtkaplan.github.io/SDS/) by D T Kaplan
+    * [Data and Statistical Graphics Chapter](https://dtkaplan.github.io/SDS/data-statistical-graphics.html)
 
-* The [GAISE college report](http://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf)
-* The [ASA statement on p-values](https://www.amstat.org/asa/News/ASA-P-Value-Statement-Viewed-150000-Times.aspx)
+## Course Materials
+
+These are materials that you might be able to use (perhaps after some
+modification) when preparing your own courses.
+
+* [Lessons for use in class](https://statprep.github.io/Workshops_2018/Lessons/lessons.html)
+
+* You Want to Know exam problems from R Pruim: 
+[[test 1](Resources/YouWantToKnow-test1.pdf)]
+[[test 2](Resources/YouWantToKnow-test2.pdf)]
+[[final](Resources/YouWantToKnow-final.pdf)]
 
 ## Textbooks
 
@@ -36,9 +50,7 @@ output:
     
     The Open Intro books are available free on line and in print form for less than $10. We're going to use them as a source for examples in the tutorials and to illustrate "typical" textbook problems. 
     
-## Course Materials
+## Professional Guidelines
 
-* You Want to Know exam problems from R Pruim: 
-[[test 1](Resources/YouWantToKnow-test1.pdf)]
-[[test 2](Resources/YouWantToKnow-test2.pdf)]
-[[final](Resources/YouWantToKnow-final.pdf)]
+* The [GAISE college report](http://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf)
+* The [ASA statement on p-values](https://www.amstat.org/asa/News/ASA-P-Value-Statement-Viewed-150000-Times.aspx)
