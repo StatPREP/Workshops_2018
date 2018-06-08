@@ -35,3 +35,10 @@ output:
     * Advanced High-School Statistics
     
     The Open Intro books are available free on line and in print form for less than $10. We're going to use them as a source for examples in the tutorials and to illustrate "typical" textbook problems. 
+    
+## Course Materials
+
+* You Want to Know exam problems from R Pruim: 
+[[test 1](Resources/YouWantToKnow-test1.pdf)]
+[[test 2](Resources/YouWantToKnow-test2.pdf)]
+[[final](Resources/YouWantToKnow-final.pdf)]
