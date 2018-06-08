@@ -70,6 +70,13 @@ data_graphics_thumb <- app_thumbnail(
   "thumbnails/tutorial_data_graphics.png",
   "Data science graphics")
 
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_data_and_Statistical_Graphics")
+data_graphics2_thumb <- app_thumbnail(
+  "https://dtkaplan.shinyapps.io/Tutorial_data_and_Statistical_Graphics",
+  "thumbnails/tutorial_data_and_statistical_graphics.png",
+  "Another take on data science graphics")
+
+
 # make_thumbnail_image("http://dtkaplan.shinyapps.io/Five_data_verbs")
 data_verbs_thumb <- app_thumbnail("http://dtkaplan.shinyapps.io/Five_data_verbs", 
                  "thumbnails/five_data_verbs.png",
@@ -132,7 +139,7 @@ div(class = "row",
 ```{r echo = FALSE}    
 div(class = "row", 
      counting_thumb, dfstats_thumb, densities_thumb,
-     conventional_graphics_thumb, data_graphics_thumb)
+     conventional_graphics_thumb, data_graphics_thumb, data_graphics2_thumb)
 ```
 
 ### Data wrangling
