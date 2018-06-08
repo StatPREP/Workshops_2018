@@ -37,7 +37,8 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
     - On your own ... Start with graphics: Randy Pruim's first-day-of-class activity [tutorial](https://dtkaplan.shinyapps.io/Lesson_first_day_births/) and [notes on plotting](http://dtkaplan.shinyapps.io/Plotting_with_formulas)
 
 3. Tidy data
-    - [Notes](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4) and some group activities [one](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-2), [two](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4)
+    - [Notes](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4) and [group activity](https://docs.google.com/spreadsheets/d/1Ow6Cm4z-Z1Yybk3i352msulYCEDOUaOghmo9ALajyHo/edit?usp=sharing) <!-- [one](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-2), [two](https://dtkaplan.github.io/SDS/tidy-data.html#May-16-2018-exer-4) -->
+    
 
 4. Data and statistical graphics: The graphics behind the Little Apps.
     - [Tutorial summary](https://dtkaplan.shinyapps.io/Tutorial_data_and_Statistical_Graphics/)
