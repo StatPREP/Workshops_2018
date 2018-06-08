@@ -43,6 +43,10 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
     - [Tutorial](https://dtkaplan.shinyapps.io/Tutorial_data_and_Statistical_Graphics/)
     - [Notes](https://dtkaplan.github.io/SDS/data-statistical-graphics.html)
 
+    - [Chapter from Statistics for Data Science by Danny Kaplan](https://dtkaplan.github.io/SDS/data-statistical-graphics.html)
+
+    - [Tutorial Summary]()
+    
 6:00 pm Dinner at 6 pm 
 
 5. Thinking about lessons. Select three topics from your current stats course that you would like to teach with data. They could be, for example, a technique, theory, or a project. 
