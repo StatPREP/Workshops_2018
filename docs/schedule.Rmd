@@ -78,6 +78,9 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
 3. Communicating with your students: Three tracks
     - [Setting up a course web site.](https://statprep.github.io/InstructorNotes/your-course-web-site.html)
     - Writing a `learnr` tutorial.
+        - [Tutorial on `df_stats()`](http://rsconnect.calvin.edu:3939/dfstats-MSP-StatPREP/)
+        - [Code for the tutorial](Creating-Tutorials/StatPREP-demo/StatPREP-demo.Rmd)
+        
     - Collecting data with your students
         - [Globe tossing](https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/#section-how-big-is-africa-versus-asia)
         - [Hypothesis testing with shuffling](http://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle)
