@@ -92,6 +92,7 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
     - Developing lessons using R commands.
     
 6. Brief presentations of lessons developed
+    - [St Paul Parks and Rec Survey](StPaulRecSurvey/ParksAndRecSurvey.html)
     - Hartford
         - [Data from the island](https://docs.google.com/document/d/1HMSh8hl6ImGAIzMuWwmq2600zbJb3DQjCw-qcKuTAQc/edit?usp=sharing)
         - [Post-it Notes](HartfordLessons/posted_notes.Rmd)
