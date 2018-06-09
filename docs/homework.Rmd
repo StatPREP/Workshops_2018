@@ -1,0 +1,91 @@
+---
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+---
+```{r child="header.md"}
+```
+<!-- Edit below this line. -->
+
+# StatPREP Pre-Workshop Homework
+
+In the instructions for [getting ready for the StatPREP workshop](getting_ready.html), we asked participants to think about their statistics course and what they would like to change. Here is a summary of the responses.
+
+## Data Handling
+
+Question: *What do you teach about handling data? (That is, not about the analysis of data but about how data is stored, accessed, transformed.)*
+
+Given that statistics is sometimes described as "the science of data," it's remarkable that ways of storing, accessing, and manipulating/wrangling data are not in the standard curriculum. The participants' answers reflected this. 
+
+* Very Little. I give students the data in spreadsheets so it is "ready" for the software.
+* Currently, I don't teach students much about handling data beyond how to read a chart.
+* Data can be stored in programs (Minitab, Excel), entered on calculator.
+* I do a poor job [of this].
+* I don't cover much on data storage and validity. I briefly discuss transformation such as quantitative to categorical (e.g. age to age categories), and logarithmic or other functions transformations for a quantitative variable.
+
+**Lesson idea**: Combine two data frames with very different units of observation. Example: The Saint Paul parks & recreation survey has an individual person as a unit of observation. One variable is the person's ZIP code. The Bureau of the Census publishes data about ZIP codes, such as population, average income, .... Combining these two sets of data would let you explore how representative the survey responses are of the actual population, whether the responses differ by average income, what resources lower-income groups tend to use, and so on.
+
+## Unsatisfying topics
+
+Question: *Which topics do you find unsatisfying?*
+
+* Hypothesis testing and p-values. 
+    - "It is as if it has become irrelavant in data analytics."
+    
+**Lesson Idea**: Cross validation to compare models. This changes the focus testing the Null Hypothesis to comparing two different models. Of course, one of the models can be a null model, but you're not restricted to that.
+    
+* Probability
+
+**Lesson Idea**: Sensitivity and specificity of, e.g., medical screening tests, or any classifier. Sara mentioned a lesson she built about contingency tables.
+
+* Chi-square and poisson distributions
+
+## Lessons to improve
+
+Question: *Which lesson have you been aching to improve?*
+
+* Bayesian stuff, basics, uses, framework, etc.
+
+**Lesson Idea**: We happen to have an expert on teaching Bayes: Alicia Johnson. 
+
+* Confidence intervals on proportions.
+
+**Lesson Ideas**: 
+
+- A lesson with the smoothing Little App. 
+- Proportion CI via resampling. 
+- Simply use software that implements the correct calculation rather than $\sqrt{p (1-p) / n}$. 
+
+* Chi-square: What do do when the chi-square approximation is invalid [the dreaded $n \leq 5$].
+
+**Lesson Ideas**:
+
+- Move on from the 1880s and do a calculation that doesn't depend on this approximation (e.g. Fisher's exact test).
+- Drop chi-square in favor of logistic regression, which fits into the general modeling framework and allows covariates to be included.
+
+## Topics to remove
+
+Question: *Suppose you were tasked to develop a version of your statistics course that is only two-thirds as long as your current course. What topics would you drop or consolidate?*
+
+* mean, median, mode, range: "They already know this."
+* p-values in favor of confidence and prediction intervals.
+* probability
+* sample size
+
+**Lesson Idea**: Use the Little Apps to find the sample size needed to achieve a given confidence interval/band.
+
+* ANOVA
+
+**Lesson Idea**: Rather than the "one-way" and "two-way" formulas, ANOVA as a general (and simple) method for studying models, based on the idea of nested models.
+
+## Data examples
+
+Question: *What data sets do you currently use that you would like to give a higher profile? Are there data sets that you'd like to incorporate but haven't had a chance to do so?*
+
+* Data sets of interest to students, e.g. Alzheimers, cancer, and other syndromes.
+* *Dataton 2018* data set on fundraising. (proposed by Mehdi)
+* Cell plans, social media use.
+    possibilities: texts versus time of day? texts to whom?
+* Currenly use none. "It is hard to find 'good" (in the sense of interesting) data sets that illustrate topics (tests)."
+    Snarky remark from Danny: That's one more indication that the "tests" are not relevant to current statistical needs.
+* Five-thirty-eight, Pew Research Center (proposed by Sara)

@@ -82,7 +82,7 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
         - [Globe tossing](https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/#section-how-big-is-africa-versus-asia)
         - [Hypothesis testing with shuffling](http://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle)
         
-4. Determining lesson-development groups
+4. Determining lesson-development groups. [Homework answers](homework.html)
     
 5. Lesson development: Small group activity with two tracks
     - Developing lessons based on [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
