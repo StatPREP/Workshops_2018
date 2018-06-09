@@ -13,6 +13,17 @@ output:
 
 * [Tutorials for instructors](https://statprep.github.io/Workshops_2018/Tutorials/tutorials.html#Lessons)
 
+* Randy Pruim's ggformula-related tutorials
+
+    * [Start with graphics](https://dtkaplan.shinyapps.io/Lesson_first_day_births/): Randy Pruim's first-day-of-class activity using Births in 2015 to introduce visual displays of data
+    * [Tutorial: Less Volume, More Creativity](http://rstudio.calvin.edu:3939/ecots2018/) from eCOTS 2018 (includes material on ggformula)
+    * [Tutorial: Intro to ggformula](http://rstudio.calvin.edu:3939/ggformula/intro/)
+    * [Tutorial: Refining plots in ggformula](http://rstudio.calvin.edu:3939/ggformula/refining/)
+        
+* Data Wrangling with the `tidyverse` (`dplyr`, `tidyr`, etc.)
+
+    * [Tutorial from a workshop at City of Hope](http://rstudio.calvin.edu:3939/tidyverse/city-of-hope-2018/)
+    
 ## Little Apps
 
 * [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/).
