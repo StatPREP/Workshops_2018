@@ -40,11 +40,11 @@ proportion_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/LittleApp_propo
                                  "Proportions")
 
 center_spread_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/littleapp-why-density/",
-                                 "thumbnails/littleapp-center-and-spread.png",
+                                 "thumbnails/LittleApp-center-and-spread.png",
                                  "Center and Spread")
 
 why_density_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/LittleApp_center-and-spread/",
-                                 "thumbnails/littleapp-center-and-spread.png",
+                                 "thumbnails/why-density-conventional.png",
                                  "Why density and not count?")
 
 # make_thumbnail_image("https://dtkaplan.shinyapps.io/Formulas/", delay = 10)
