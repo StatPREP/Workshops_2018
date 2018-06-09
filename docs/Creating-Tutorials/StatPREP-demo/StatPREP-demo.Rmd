@@ -1,0 +1,74 @@
+---
+title: "Numerical Summaries in R"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+library(NHANES)
+library(mosaic)
+```
+
+
+## Computing Means using df_stats()
+
+Let's learn how to get R to compute **means** from our data.
+
+
+
+### Example
+
+Here is our first example.  Notice how it uses our 
+formula template (just like `ggformula`).
+
+
+```{r mean-example, exercise=TRUE}
+gf_jitter(Age ~ Gender, data = NHANES, alpha = 0.04)
+ df_stats(Age ~ Gender, data = NHANES, mean)
+```
+
+#### Your Turn
+
+Change the variable `Age` to some other variable.  Examples: `Weight`, `Length`,
+`HeadCirc`, `BMI`, etc.  (Use `?NHANES` to get a full list of variables.)
+
+```{r mean-exercise, exercise=TRUE}
+gf_jitter( ??? ~ Gender, data = NHANES, alpha = 0.04)
+ df_stats( ??? ~ Gender, data = NHANES, mean)
+```
+
+## Why stop at means?
+
+Try replacing mean with some other statistical summaries, for example, let's try **median**.
+
+```{r dfstats-median, exercise=TRUE, exercise.eval=TRUE}
+df_stats( Age ~ Gender, data = NHANES, median)
+```
+
+#### Your Turn
+
+1. Try some other statistics: `sd`, `max`, `min`, `range`, `iqr`.
+
+```{r dfstats-median-exercise, exercise=TRUE}
+df_stats( Age ~ Gender, data = NHANES, ???)
+```
+
+
+```{r dfstats-median-exercise-hint}
+df_stats( Age ~ Gender, data = NHANES, sd)
+```
+
+
+2. What happens if you try more than one summary at the same time? Try it.
+
+```{r dfstats-meansd, exercise=TRUE}
+df_stats( Age ~ Gender, data = NHANES, mean, sd, range)
+```
+
+3. What if you don't use any?  Try it.
+
+```{r dfstats-favstats, exercise=TRUE}
+df_stats( Age ~ Gender, data = NHANES)
+```
