@@ -11,11 +11,13 @@ output:
 
 ## Tutorials
 
-* [StatPREP Tutorials](https://statprep.github.io/Workshops_2018/Tutorials/tutorials.html#Lessons)
-(topics include: 
+* [StatPREP Tutorials](https://statprep.github.io/Workshops_2018/Tutorials/tutorials.html#Lessons). 
+
+    These are intended primarily for *instructors*.
+Topics include: 
 R and data fundamentals, 
 descriptive statistics and graphics, 
-data wrangling, etc.)
+data wrangling, etc.
 
 * Randy Pruim's ggformula-related tutorials
 
