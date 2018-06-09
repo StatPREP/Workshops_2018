@@ -6,5 +6,6 @@
 <!-- If you don't want a banner, delete the previous line.  -->
 
 [homepage](https://Statprep.github.io/Workshops_2018/index.html) :: [schedule](https://Statprep.github.io/Workshops_2018/schedule.html) :: [tutorials](https://Statprep.github.io/Workshops_2018/Tutorials/tutorials.html) ::
+[Little Apps](https://Statprep.github.io/Workshops_2018/LittleApps/little_apps.html) ::
 [lessons](https://Statprep.github.io/Workshops_2018/Lessons/lessons.html) ::
 [resources](https://Statprep.github.io/Workshops_2018/resources.html) :: [HELP!!](https://Statprep.github.io/Workshops_2018/help_for_shy_people.html)

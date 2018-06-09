@@ -36,18 +36,84 @@ smoother_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/LittleApp_smoothi
                                  "Regression and Smoothers")
 
 proportion_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/LittleApp_proportions/",
-                                 "thumbnails/LittleApp-proportion.png",
+                                 "thumbnails/littleapp-proportion.png",
                                  "Proportions")
 
-center_spread_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/LittleApp_center-and-spread/",
-                                 "thumbnails/LittleApp-center-and-spread.png",
+center_spread_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/littleapp-why-density/",
+                                 "thumbnails/littleapp-center-and-spread.png",
                                  "Center and Spread")
 
+why_density_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/LittleApp_center-and-spread/",
+                                 "thumbnails/aittleapp-center-and-spread.png",
+                                 "Why density and not count?")
+
 # make_thumbnail_image("https://dtkaplan.shinyapps.io/Formulas/", delay = 10)
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/littleapp-density-graphs/", delay = 10)
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/littleapp-stem-and-leaf/", delay = 10)
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/littleapp-generate-resamples/", delay = 10)
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/littleapp-ANOVA-1/", delay = 10)
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/littleapp-why-density/", delay = 60)
 ```
 
 ```{r echo = FALSE}
 div(class = "row",
     t2_thumb, smoother_thumb, proportion_thumb, center_spread_thumb)
 ```
-    
+ 
+ 
+## Original style
+
+Feedback on the original Little Apps has prompted us to revise them, adding features such as tabs for the codebook, an explanation, and R code in the app itself. The following Little Apps have not yet been revised, but will be this summer. Still, the main ideas are present in the original version.
+
+```{r echo = FALSE}
+Resampling_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/littleapp-generate-resamples/",
+                                 "thumbnails/littleapp-generate-resamples.png",
+                                 "Resampling & inference")
+ANOVA1_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/littleapp-anova-1/",
+                                 "thumbnails/littleapp-anova-1.png",
+                                 "'One-way' ANOVA")
+Density_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/littleapp-density-graphs/",
+                                 "thumbnails/littleapp-density-graphs.png",
+                                 "Displays of density")
+Stem_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/littleapp-stem-and-leaf/",
+                                 "thumbnails/littleapp-stem-and-leaf.png",
+                                 "Stem-and-leaf plots")
+Why_density_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/littleapp-why-density/",
+                                   "thumbnails/why-density-data-graphics.png",
+                                   "Why density and not count?")
+Why_density2_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/littleapp-why-density/",
+                                   "thumbnails/why-density-conventional.png",
+                                   "Why density and not count?")
+
+
+```
+
+```{r echo = FALSE}
+div(class = "row",
+    Resampling_thumb, ANOVA1_thumb, Why_density_thumb)
+``` 
+
+### Little Apps for some conventional graphics.
+
+These apps **don't** use the "data graphics/statistical graphics/inference graphics" tricotomy. Instead, they use the varied and inconsistent forms of traditional graphics.
+
+```{r echo = FALSE}
+div(class = "row",
+    Density_thumb, Stem_thumb, Why_density2_thumb)
+``` 
+
+## Instructor orientation
+
+These are documents describing some of the ways the Little Apps can be used.
+
+* [Two-sample t test app](http://gifted-saha-3345d3.netlify.com//post/little-apps-two-sample-t-test/)
+* [Smoothing and covariates app](http://gifted-saha-3345d3.netlify.com//post/smoothing-and-covariates)
+* [Resampling and confidence app](/http://gifted-saha-3345d3.netlify.com/post/little-apps-resampling-and-confidence)
+* [ANOVA in one variable app](http://gifted-saha-3345d3.netlify.com/post/little-apps-anova-in-one-variable/)   
+* [Center and spread app](http://gifted-saha-3345d3.netlify.com//post/little-apps-center-and-spread)
+* [Why density instead of counts? app](http://gifted-saha-3345d3.netlify.com//post/little-apps-why-use-density/).
+* [Proportions app](http://gifted-saha-3345d3.netlify.com//post/proportions-and-zero-one-variables/)
+* [Displaying distributions app](/http://gifted-saha-3345d3.netlify.com/post/displaying-distributions/)
+* [Stem-and-leaf app](http://gifted-saha-3345d3.netlify.com/post/little-apps-stem-and-leaf-displays)
+* [Why density instead of counts? app](http://gifted-saha-3345d3.netlify.com/post/little-apps-why-use-density/). 
+
