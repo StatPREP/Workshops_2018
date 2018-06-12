@@ -1,0 +1,106 @@
+---
+title: "St Paul Parks and Rec"
+author: "Stat PREP 2018"
+date: "6/9/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+require(mosaic)
+options(digits = 3)
+```
+
+## Data Sources
+
+### Parks and Rec Survey
+
+The Parks and Rec Survey was administered in 2016 to subscribers to the Parks and Recreation electronic new bulletin.  Find out more at [https://information.stpaul.gov](https://information.stpaul.gov/Public-Facilities-Services/Parks-And-Recreation-Community-Interest-Survey-Dat/x757-9f5s).
+
+> An online survey was sent to Parks and Recreation e-delivered news bulletin subscribers. The 
+subscriber lists for two Parks and Recreation e-lists – 'Parks and Recreation Updates' and the 
+'Parks and Recreation News, Events and Activities' – were used.  The first survey mailing was 
+sent to these subscribers on August 17th.  Reminders were sent on August 26th and September 2, 
+2016, and the survey was closed on September 9, 2016. The result was a 17% "opened" rate for 
+these emails, which means that 4,762 surveys were successfully delivered. Of these, 1,382 
+responses were received for a 29% response rate.
+
+### Zip Codes
+
+Zip code geography data (location information) is from [https://simplemaps.com/data/us-zips](https://simplemaps.com/data/us-zips).
+
+Zip Code Demography data is from Danny Kaplan (personal communication).
+
+## Loading the Data
+
+```{r}
+library(readr)
+ParksRec <- 
+  read_csv("Parks_And_Recreation_Community_Interest_Survey_Dataset.csv")
+load('ZipDemography.rda')  # load ZipDemography
+ZipGEO <- read_csv("USzips.csv")
+```
+
+```{r}
+require(dplyr)
+ParksRecPlus <-
+  ParksRec %>%
+  left_join(ZipDemography, by = c(zip = "ZIP")) %>%
+  left_join(ZipGEO) %>%
+  mutate(
+    zip = readr::parse_number(zip),
+    RegionalParkUse = 
+      factor(RegionalParkUse, 
+             levels=c("I/we don't use this", "A few times a year", 
+                      "A few times a month", "A few times a week", 
+                      "Almost daily")),
+    RegionalParksCondition = 
+      factor(RegionalParksCondition,
+             levels = c("Excellent", "Good", "Fair", 
+                        "Poor", "I/we don't use this")
+      )
+    )
+```
+
+## Plotting the Data
+
+```{r}
+gf_jitter( RegionalParksCondition ~ MedianAge, data = ParksRecPlus, alpha = 0.15)
+```
+## Looking at the "young" zip codes
+
+```{r}
+ParksRecPlus %>% 
+  filter(MedianAge < 25) %>%
+  select(zip, MedianAge, RegionalParksCondition, county_name, lat, lng)
+```
+
+## Merging the summary data
+
+```{r}
+ParksRecByZip <-
+  ParksRecPlus %>%
+  group_by(zip, MedianAge, lat, lng, county_name) %>%
+  summarise(n = n()) %>%
+  left_join(
+    df_stats(RegionalParksCondition ~ zip, data = ParksRecPlus, n = length, props)
+  )
+
+```
+
+## Presenting data on a map
+
+```{r}
+require(leaflet)
+leaflet(data = ParksRecByZip) %>% addTiles() %>%
+  addMarkers(~lng, ~lat,
+             popup = ~ as.character(county_name), 
+             label = ~ paste(
+               "Zip = ", as.character(zip), 
+               "; Med. Age = ", as.character(MedianAge), 
+               "; Prop. Excellent = ", round(prop_Excellent, 2),
+               "; Prop. Good = ", round(prop_Good, 2),
+               "; n = ", n))
+ 
+```
+

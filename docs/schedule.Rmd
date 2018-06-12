@@ -53,7 +53,7 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
     - [Tutorial summary](https://dtkaplan.shinyapps.io/Tutorial_data_and_Statistical_Graphics/)
     - [Chapter from *Statistics for Data Science* by Danny Kaplan](https://dtkaplan.github.io/SDS/data-statistical-graphics.html)
     
-6:00 pm Dinner at 6 pm 
+12:30 pm Lunch
 
 5. Thinking about lessons. Select three topics from your current stats course that you would like to teach with data. They could be, for example, a technique, theory, or a project. 
     - Working with local data
@@ -87,11 +87,16 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
 2. Communicating with your students: Three tracks
     - [Setting up a course web site.](https://statprep.github.io/InstructorNotes/your-course-web-site.html)
     - Writing a `learnr` tutorial.
+        - [Tutorial on `df_stats()`](http://rsconnect.calvin.edu:3939/dfstats-MSP-StatPREP/)
+        - [Code for the tutorial](Creating-Tutorials/StatPREP-demo/StatPREP-demo.Rmd)
     - Collecting data with your students
         - [Globe tossing](https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/#section-how-big-is-africa-versus-asia)
         - [Hypothesis testing with shuffling](http://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle)
         
 3. Determining lesson-development groups. [Homework answers](homework.html)
+
+12:30 pm Lunch
+
     
 4. Lesson development: Small group activity with two tracks
     - Developing lessons based on [Little Apps](http://remodeling.danielkaplan.org/post/little-apps-for-teaching-stats/)
@@ -105,9 +110,9 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
     - St. Paul
         - Support for investment in Saint Paul parks
         - Bayesian analysis
-        - Joining data to make maps
+        - [Joining data to make maps](StPaulRecSurvey/ParksAndRecSurvey.html)
 
-7. Going forward ... support and staying in touch
+6. Going forward ... support and staying in touch
 
 3:15 pm, adjourn
 
