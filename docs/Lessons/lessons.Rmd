@@ -31,19 +31,19 @@ first_day_thumb <- app_thumbnail("https://dtkaplan.shinyapps.io/Lesson_first_day
 
 # make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Globe_toss/")
 globe_toss_thumb <- 
-  app_thumbnail("http://dtkaplan.shinyapps.io/tutorial_globe_toss.png", 
+  app_thumbnail("http://dtkaplan.shinyapps.io/tutorial_globe_toss", 
                 "thumbnails/tutorial_globe_toss.png",
                 "Collecting data: Globe toss✐")
 
 # make_thumbnail_image("https://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle/")
 riverboat_thumb <- 
-  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle.png", 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Tutorial_Riverboat_shuffle", 
                 "thumbnails/tutorial_riverboat_shuffle.png",
                 "A Riverboat Card Trick✐")
 
 # make_thumbnail_image("https://dtkaplan.shinyapps.io/Lesson_read_class_data/")
 read_class_data_thumb <- 
-  app_thumbnail("http://dtkaplan.shinyapps.io/Lesson_read_class_data.png", 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Lesson_read_class_data", 
                 "thumbnails/lesson_read_class_data.png",
                 "Accessing in-class data")
 
@@ -61,7 +61,7 @@ paper_planes_thumb <-
 
 # make_thumbnail_image("https://dtkaplan.shinyapps.io/Diabetes/")
 diabetes_thumb <- 
-  app_thumbnail("http://dtkaplan.shinyapps.io/Diabetes.png", 
+  app_thumbnail("http://dtkaplan.shinyapps.io/Diabetes", 
                 "thumbnails/diabetes.png",
                 "Detecting diabetes✐✐✐")
 
