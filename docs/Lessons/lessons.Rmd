@@ -71,6 +71,12 @@ taxi_thumb <-
                 "thumbnails/confidence_in_taxis.png",
                 "Confidence in taxis")
 
+# make_thumbnail_image("https://dtkaplan.shinyapps.io/Lesson_WorldSampling/")
+taxi_thumb <- 
+  app_thumbnail("https://dtkaplan.shinyapps.io/Lesson_WorldSampling/", 
+                "thumbnails/lesson_worldsampling.png",
+                "Sampling the World")
+
 ```
 
 ```{r echo = FALSE}
