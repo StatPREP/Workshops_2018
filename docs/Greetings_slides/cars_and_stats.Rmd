@@ -1,6 +1,5 @@
 ---
 title: "Welcome to StatPREP"
-runtime: shiny
 output: ioslides_presentation
 ---
 
@@ -18,60 +17,66 @@ Three different audiences in one.
 
 ## Results from the survey
 
-1. I am willing to take this survey.  100% agree (sampling  bias?)
-#. Institution type: about evenly split between two-year and four-year institutions
-#. All but one of the 26 responding has taught introductory statistics.
+1. I am willing to take this survey. 94% (sampling bias) <!-- 100% agree (sampling  bias?) -->
+#. Institution type: two thirds from two-year colleges. One from high school. Remaining from 4-year institutions. <!-- about evenly split between two-year and four-year institutions -->
+#. Everyone responding has taught introductory statistics.
 
 ## Results from the survey
 
 4. What coursework did we take in graduate school?
 
-```{r echo = FALSE, fig.center=TRUE, out.width = "60%"}
-knitr::include_graphics("images/Q7.png")
+```{r echo = FALSE, fig.center=TRUE, out.width = "80%"}
+knitr::include_graphics("images/Q7-Seattle.png")
 ```
 
 ## Results from the survey
 
-5. 70% of us have never taken applied stats coursework.
-6. 50% "conduct statistical analyses of data outside of teaching (e.g., for your own research, consulting, etc.)"
+5. Almost half have taken applied stats coursework.<!-- 70% of us have never taken applied stats coursework.-->
+6. Almost half "conduct statistical analyses of data outside of teaching (e.g., for your own research, consulting, etc.)"
 
 ## Results from the survey
 
 7. Computing used
 
-```{r echo = FALSE, fig.center=TRUE, out.width = "60%"}
-knitr::include_graphics("images/Q17.png")
+```{r echo = FALSE, fig.center=TRUE, out.width = "80%"}
+knitr::include_graphics("images/Q17-Seattle.png")
 ```
 
 ## Results from the survey
 
 8. We lack
-    - Access to real data: 80%
-    - Personal experience handling large data sets: 65%
-    - Technology infrastructure for large data sets: 55%
-    - Graphing ability: 50% [ci at 95%: 30-70%]
+    - Access to real data: 50% <!-- 80% -->
+    - Personal experience handling large data sets: 55%
+    - Technology infrastructure for large data sets: 45%
+    - Graphing ability: 60% [ci at 95%: 40-80%]
     
 #. Obstacles to making changes    
-    - Not enough personal time: 65%
-    - Student characteristics: 60%
-    - Technology constraints: 50% [ci at 95%: 30-70%]
-    - Department or institutional constraints: 35%
+    - Not enough personal time: 70%
+    - Student characteristics: 55%
+    - Technology constraints: 60% [ci at 95%: 40-80%]
+    - Department or institutional constraints: 30%
+
+> *"Too many students can't take the intro stats course, and hence graduate, because of the burden of "intermediate algebra" prerequisite."*
 
 ## Results from the survey
 
 Areas of consensus
 
+- Students learn statistics more effectively by learning fewer topics in greater depth than learning more topics in less depth. 95% agree or strongly agree
+- The many methods covered in introductory statistics can be reduced to a small set of common principles. 85% agree
+- Rules of probability should be included in an introductory statistics course. 85% agree.
 - Students learn statistics more effectively from a good lecture than from a good activity. 80% disagree or strongly disaggree
-- Students learn statistics more effectively by learning fewer topics in greater depth than learning more topics in less depth. 85% agree or strongly agree
-  
-## Results from the survey  
-    
-We disagree (about 50% for and 50% against)
 
-- Students should learn how to read statistical tables of theoretical distributions (e.g., t-table, F-table).
-- Students learn statistics more effectively when starting with theory and doing follow up work with data.
-- Students learn statistics better by understanding how to express concepts with algebra.
-- Students learn statistics better by understanding how to express concepts by using computer code (e.g., R)
+
+## Results from the survey
+
+More areas of concesus
+
+- Algebraic formulas are the best method to learn statistics. 100% disagree
+- Students learn statistics better by understanding how to express concepts with algebra. 85% disagree
+- Computing offers a framework for understanding statistical theory that is as legitimate as the theory based on probability rules and algebra. 80% agree
+- Students should learn how to read statistical tables of theoretical distributions (e.g., t-table, F-table). 80% disagree
+
     
 ## About tables ...
 
@@ -101,8 +106,8 @@ ASA statement:
 
 Is statistics ...
 
-* an area of theory (like group theory or number theory or graph theory)
-* a practical tool
+* an area of theory (like group theory or number theory or graph theory)?
+* a practical tool?
 
 
 <br>
