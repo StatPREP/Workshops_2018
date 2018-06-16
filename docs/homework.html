@@ -52,67 +52,72 @@
 <p>Question: <em>What do you teach about handling data? (That is, not about the analysis of data but about how data is stored, accessed, transformed.)</em></p>
 <p>Given that statistics is sometimes described as “the science of data,” it’s remarkable that ways of storing, accessing, and manipulating/wrangling data are not in the standard curriculum. The participants’ answers reflected this.</p>
 <ul>
-<li>Very Little. I give students the data in spreadsheets so it is “ready” for the software.</li>
-<li>Currently, I don’t teach students much about handling data beyond how to read a chart.</li>
-<li>Data can be stored in programs (Minitab, Excel), entered on calculator.</li>
-<li>I do a poor job [of this].</li>
-<li>I don’t cover much on data storage and validity. I briefly discuss transformation such as quantitative to categorical (e.g. age to age categories), and logarithmic or other functions transformations for a quantitative variable.</li>
+<li>Nothing</li>
+<li>Nothing formal but embedded in class activities</li>
+<li>Missing data, how to make a data sheet</li>
+<li>Sources such as McCabe text, DASL, JMP data sets</li>
+<li>Difficulty of big data.</li>
+<li>Data may not be accurate (entered incorrectly)</li>
+<li>Data tells a story; you need to find that story</li>
+<li>Data ethics</li>
+<li>Copy and paste from web to Excel</li>
+<li>Presenting data graphically</li>
+<li><code>read.csv()</code> &amp; <code>write.csv()</code></li>
 </ul>
-<p><strong>Lesson idea</strong>: Combine two data frames with very different units of observation. Example: The Saint Paul parks &amp; recreation survey has an individual person as a unit of observation. One variable is the person’s ZIP code. The Bureau of the Census publishes data about ZIP codes, such as population, average income, …. Combining these two sets of data would let you explore how representative the survey responses are of the actual population, whether the responses differ by average income, what resources lower-income groups tend to use, and so on.</p>
+<p><strong>Lesson ideas</strong>:</p>
+<ul>
+<li>Calculating grade-point-averages for departments or professors by joining tables in a registrar’s data base. (<code>grades.csv</code>, <code>courses.csv</code>, <code>grade2number.csv</code> from MOSAIC site.)</li>
+<li>Cleaning inconsistently entered data (e.g. bird species encountered)</li>
+</ul>
 </div>
 <div id="unsatisfying-topics" class="section level2">
 <h2>Unsatisfying topics</h2>
 <p>Question: <em>Which topics do you find unsatisfying?</em></p>
 <ul>
-<li>Hypothesis testing and p-values.
+<li>Descriptive stats (generally they already know this)
 <ul>
-<li>“It is as if it has become irrelavant in data analytics.”</li>
+<li>“rules” for histograms</li>
 </ul></li>
-</ul>
-<p><strong>Lesson Idea</strong>: Cross validation to compare models. This changes the focus testing the Null Hypothesis to comparing two different models. Of course, one of the models can be a null model, but you’re not restricted to that.</p>
+<li>Probability:</li>
+<li>Distributions: binomial, uniform, t</li>
+<li>Hypothesis testing
 <ul>
-<li>Probability</li>
+<li>Writing H_0 and H_a correctly.</li>
+</ul></li>
+<li>t, z, … table mechanics</li>
+<li>Experimental design.</li>
 </ul>
-<p><strong>Lesson Idea</strong>: Sensitivity and specificity of, e.g., medical screening tests, or any classifier. Sara mentioned a lesson she built about contingency tables.</p>
-<ul>
-<li>Chi-square and poisson distributions</li>
-</ul>
+<p><strong>Lesson Idea</strong>: Sensitivity and specificity of, e.g., medical screening tests, or any classifier. More generally, do conditional probability by actually counting cases from a data set.</p>
 </div>
 <div id="lessons-to-improve" class="section level2">
 <h2>Lessons to improve</h2>
 <p>Question: <em>Which lesson have you been aching to improve?</em></p>
 <ul>
-<li>Bayesian stuff, basics, uses, framework, etc.</li>
-</ul>
-<p><strong>Lesson Idea</strong>: We happen to have an expert on teaching Bayes: Alicia Johnson.</p>
-<ul>
-<li>Confidence intervals on proportions.</li>
-</ul>
-<p><strong>Lesson Ideas</strong>:</p>
-<ul>
-<li>A lesson with the smoothing Little App.</li>
-<li>Proportion CI via resampling.</li>
-<li><p>Simply use software that implements the correct calculation rather than <span class="math inline">\(\sqrt{p (1-p) / n}\)</span>.</p></li>
-<li><p>Chi-square: What do do when the chi-square approximation is invalid [the dreaded <span class="math inline">\(n \leq 5\)</span>].</p></li>
+<li>Would love to get to ANOVA and chi-square.</li>
+<li>Comparing distributions</li>
+<li>Inferential statistics</li>
+<li>Sampling distributions of mean and proportion</li>
+<li>Medical tests: sensitivity, specificity, pos. predictivity, …</li>
+<li>Projects, reports, presentations</li>
 </ul>
 <p><strong>Lesson Ideas</strong>:</p>
 <ul>
-<li>Move on from the 1880s and do a calculation that doesn’t depend on this approximation (e.g. Fisher’s exact test).</li>
-<li>Drop chi-square in favor of logistic regression, which fits into the general modeling framework and allows covariates to be included.</li>
+<li>Use distribution Little App to look at NHANES variables, which have a variety of distributions. Talk about <em>why</em> the different variables have the distributions they do.</li>
+<li>Use sampling, resampling, shuffling</li>
 </ul>
 </div>
 <div id="topics-to-remove" class="section level2">
 <h2>Topics to remove</h2>
 <p>Question: <em>Suppose you were tasked to develop a version of your statistics course that is only two-thirds as long as your current course. What topics would you drop or consolidate?</em></p>
 <ul>
-<li>mean, median, mode, range: “They already know this.”</li>
-<li>p-values in favor of confidence and prediction intervals.</li>
-<li>probability</li>
-<li>sample size</li>
-</ul>
-<p><strong>Lesson Idea</strong>: Use the Little Apps to find the sample size needed to achieve a given confidence interval/band.</p>
-<ul>
-<li>ANOVA</li>
+<li>drop intro material in favor of actual data analysis</li>
+<li>counting, “unhelpful” probability (Bayes Theorem)</li>
+<li>binomial theorem</li>
+<li>normal approx. to <span class="math inline">\(\hat{p}\)</span> distribution</li>
+<li>consolidate two-sample and multi=sample for quantitative variables. <em>We are “doing the same thing” when we construct CI for <span class="math inline">\(\mu_1\)</span>, <span class="math inline">\(\mu_x - \mu_y\)</span>, <span class="math inline">\(p_1\)</span>, <span class="math inline">\(p_1 - p_2\)</span></em></li>
+<li>regression (it gets covered in other courses)</li>
+<li>Detailed explanation of Type I and II errors</li>
+<li>Urn and playing card examples.</li>
 </ul>
 <p><strong>Lesson Idea</strong>: Rather than the “one-way” and “two-way” formulas, ANOVA as a general (and simple) method for studying models, based on the idea of nested models.</p>
 </div>
@@ -120,12 +125,18 @@
 <h2>Data examples</h2>
 <p>Question: <em>What data sets do you currently use that you would like to give a higher profile? Are there data sets that you’d like to incorporate but haven’t had a chance to do so?</em></p>
 <ul>
-<li>Data sets of interest to students, e.g. Alzheimers, cancer, and other syndromes.</li>
-<li><em>Dataton 2018</em> data set on fundraising. (proposed by Mehdi)</li>
-<li>Cell plans, social media use. possibilities: texts versus time of day? texts to whom?</li>
-<li>Currenly use none. “It is hard to find ’good” (in the sense of interesting) data sets that illustrate topics (tests).&quot; Snarky remark from Danny: That’s one more indication that the “tests” are not relevant to current statistical needs.</li>
-<li>Five-thirty-eight, Pew Research Center (proposed by Sara)</li>
+<li>GAPMINDER (esp. “Dollar Street”)</li>
+<li>Consumer complaints, e.g. at <code>finance.gov</code> web site.</li>
+<li>CDC data sets</li>
+<li>Datasets for success rates of students in a 4-year college.</li>
+<li>Medical charting</li>
+<li>Kaiser Health (State Health Facts) … “But I puzzle over using state-level data. I would prefer the unit of observation to be people or fish or something easy for students to understand.”</li>
+<li>US Census / American Community Survey</li>
+<li>World Bank data</li>
+<li>Genome data</li>
+<li>Death dates by day of week and day of year.</li>
 </ul>
+<p><strong>Lesson Idea</strong>: - 311 calls for Seattle - Dept. of Education scorecard data - Voter registration data (e.g. Wake County) - Road race data - Weather events - National Cancer Institute NCI-60 data.</p>
 </div>
 </div>
 </div>
