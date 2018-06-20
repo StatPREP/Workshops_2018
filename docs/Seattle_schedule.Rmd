@@ -7,23 +7,6 @@ output:
 ```{r child="header.md"}
 ```
 
-# Schedule of Workshop Activities
-
-This schedule is intended to be the hub from which you can access notes and activities for the StatPREP 2018 workshops. You might want to bookmark it in your browser so that you can find it quickly.
-
-## Archive for workshops already held
-
-Since the schedule evolves a bit from one workshop location to another, we're archiving the schedule as it was at the end of each workshop. 
-
-* [Hartford, CT (June 1/2, 2018)](hartford_schedule.html)
-* [Saint Paul, MN (June 8/9, 2018)](SaintPaul_schedule.html) 
-* [Seattle, WA, (June 15/16, 2018)](Seattle_schedule.html)
-* Los Angeles area: College of the Canyons, Santa Clarita, CA (June 22/23) workshop coming up.
-
-Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're too shy to ask a question out loud. Also use it to help the StatPREP organizers by posting comments, criticisms, suggestions, and such. 
-
---------------------
-
 
 ## Schedule for Highline College workshop (Seattle) June 15-16
 
@@ -68,7 +51,7 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
     - [Little Apps](https://statprep.github.io/Workshops_2018/LittleApps/little_apps.html)
 
 
-3:30 pm Adjourn
+3:15 pm Adjourn
 
 ## Saturday
 
@@ -114,6 +97,7 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
 
 6. Going forward ... support and staying in touch
 
-3:30 pm, adjourn
+3:15 pm, adjourn
+
 
 
