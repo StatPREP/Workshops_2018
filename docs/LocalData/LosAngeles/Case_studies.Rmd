@@ -1,0 +1,135 @@
+---
+title: "Los Angeles Local Data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(lubridate)
+library(ggformula)
+library(mosaic)
+library(mosaicCore)
+```
+
+## Active Businesses
+
+```{r eval =  FALSE}
+Businesses <- read_csv("Raw_data/Listing_of_Active_Businesses.csv")
+
+
+
+Businesses <- 
+  Businesses %>%
+  select(zip = "ZIP CODE", naics_code = NAICS, naics = "PRIMARY NAICS DESCRIPTION",
+         start = "LOCATION START DATE") %>%
+  mutate(start = lubridate::mdy(start))
+
+save(Businesses, file = "Data/Businesses.rda")
+today <- lubridate::mdy("6/21/2018")
+Businesses <- Businesses %>% 
+  mutate(duration = interval(start, today) %>% as.numeric("months"))
+```
+
+```{r warning = FALSE}
+load("Data/Businesses.rda")
+
+
+# Get description levels
+NAICS <- Businesses %>%
+  group_by(naics_code, naics) %>%
+  summarize(count = n()) %>%
+  mutate(code = as.character(naics_code))
+
+Majors <- 
+  Businesses %>%
+  left_join(NAICS) %>%
+  filter(count > 4000)
+
+gf_violin(duration ~ code, data = Majors) %>%
+  gf_theme(axis.text.x = element_text(angle = 45, hjust = 1)) %>%
+  gf_labs(x = "NAICS code", y = "Months in business")
+```
+
+
+## Arrests
+
+[Data source](https://data.lacity.org/A-Safe-City/Arrest-Data-from-2010-to-Present/yru6-6re4)
+
+```{r eval = FALSE}
+Arrests <- read_csv("Raw_data/Arrest_Data_from_2010_to_Present.csv")
+Arrests <- Arrests %>%
+  select(date = "Arrest Date", time = Time, age = Age, sex = "Sex Code",
+         descent = "Descent Code",
+         charge_gp_code = "Charge Group Code",
+         charge_gp = "Charge Group Description",
+         arrest = "Arrest Type Code",
+         charge = Charge,
+         location = Location
+         )
+save(Arrests, file = "Data/Arrests.rda")
+```
+
+
+```{r}
+load("Data/Arrests.rda")
+```
+
+```{r}
+Arrests %>%
+  group_by(charge_gp) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+```
+
+A code to indicate the type of charge the individual was arrested for. 
+
+- D - Dependent 
+- F - Felony 
+- I - Infraction 
+- M - Misdemeanor 
+- O - Other
+
+```{r}
+Arrests %>%
+  group_by(arrest) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+```
+
+Descent Code: 
+
+- A - Other Asian 
+- B - Black 
+- C - Chinese 
+- D - Cambodian 
+- F - Filipino 
+- G - Guamanian 
+- H - Hispanic/Latin/Mexican 
+- I - American Indian/Alaskan Native 
+- J - Japanese 
+- K - Korean
+- L - Laotian 
+- O - Other 
+- P - Pacific Islander 
+- S - Samoan 
+- U - Hawaiian 
+- V - Vietnamese 
+- W - White 
+- X - Unknown 
+- Z - Asian Indian
+
+```{r}
+Arrests %>%
+  group_by(descent) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+```
+
+```{r}
+Arrests <-
+  Arrests %>%
+  mutate(group = ifelse(descent %in% c("H", "B", "W"), descent, "O"))
+gf_counts( ~ group, fill = ~ arrest, data = Arrests, position = "fill")
+```
+

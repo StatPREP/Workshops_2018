@@ -36,6 +36,13 @@ data wrangling, etc.
 
 * [Revised Little Apps](https://statprep.github.io/Workshops_2018/LittleApps/little_apps.html) coming soon
 
+
+## Other apps
+
+Several other authors have statistics based apps, e.g.
+
+* [power](http://www.rossmanchance.com/applets/power.html)
+
 ## Notes
 
 * [Instructor notes for StatPREP technologies](http://StatPREP.github.io/InstructorNotes)
@@ -73,3 +80,7 @@ modification) when preparing your own courses.
 
 * The [GAISE college report](http://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf)
 * The [ASA statement on p-values](https://www.amstat.org/asa/News/ASA-P-Value-Statement-Viewed-150000-Times.aspx)
+
+## Of potential interest
+
+* [Dance of the p-values](https://www.youtube.com/watch?v=5OL1RqHrZQ8)

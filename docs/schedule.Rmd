@@ -18,7 +18,8 @@ Since the schedule evolves a bit from one workshop location to another, we're ar
 * [Hartford, CT (June 1/2, 2018)](hartford_schedule.html)
 * [Saint Paul, MN (June 8/9, 2018)](SaintPaul_schedule.html) 
 * [Seattle, WA, (June 15/16, 2018)](Seattle_schedule.html)
-* Los Angeles area: College of the Canyons, Santa Clarita, CA (June 22/23) workshop coming up.
+* Los Angeles area: College of the Canyons, Santa Clarita, CA (June 22/23, 2018) our last StatPREP workshop in 2018. See schedule below.
+
 
 Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're too shy to ask a question out loud. Also use it to help the StatPREP organizers by posting comments, criticisms, suggestions, and such. 
 
@@ -111,6 +112,9 @@ Note the [HELP!!](help_for_shy_people.html) menu item above. Use it if you're to
         - Support for investment in Saint Paul parks
         - Bayesian analysis
         - [Joining data to make maps](StPaulRecSurvey/ParksAndRecSurvey.html)
+    - Los Angeles
+        - [Regression and confidence](LosAngelesLessons/Regression_and_confidence.pdf)
+        - [Homelessness](LosAngelesLessons/Homelssness data LA.pdf)
 
 6. Going forward ... support and staying in touch
 
